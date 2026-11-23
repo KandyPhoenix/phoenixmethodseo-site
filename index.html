@@ -32,7 +32,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SEO Consulting for Small Business | Phoenix Method">
-    <meta name="twitter:description" content="Phoenix Method delivers data-driven SEO and SEM strategies that ignite organic growth and dominate search rankings.">
+    <meta name="twitter:description" content="Website management & SEO for small businesses, therapy and healthcare practices, and personal sites. Monthly updates, local SEO and content that build rankings.">
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -51,7 +51,6 @@
         },
         "image": "https://phoenixmethodseo.com/assets/phoenix-full-logo.png",
         "email": "hello@phoenixmethodseo.com",
-        "foundingDate": "2025",
         "areaServed": {
             "@type": "Country",
             "name": "United States"
@@ -413,64 +412,6 @@
         margin-bottom: 40px;
         opacity: 1;
     }
-    .hero-proof {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: clamp(16px, 3vw, 40px);
-        flex-wrap: nowrap;
-        opacity: 1;
-        margin-bottom: 20px;
-    }
-    .proof-item { text-align: center; flex: 0 1 auto; white-space: nowrap; }
-    .pillar-icon {
-        display: block;
-        font-size: 1.6rem;
-        margin-bottom: 8px;
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-end));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-    .pillar-title {
-        display: block;
-        font-family: var(--font-accent);
-        font-weight: 600;
-        font-size: 0.78rem;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: var(--text-primary);
-        margin-bottom: 4px;
-    }
-    .proof-number {
-        font-family: var(--font-display);
-        font-weight: 700;
-        font-size: clamp(2rem, 4vw, 3rem);
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-end));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-    .proof-suffix {
-        font-family: var(--font-display);
-        font-weight: 700;
-        font-size: clamp(1.5rem, 3vw, 2rem);
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-end));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
-    .proof-label {
-        display: block;
-        font-family: var(--font-accent);
-        font-size: 0.75rem;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        color: #F0ECE6;
-        opacity: 0.7;
-        margin-top: 4px;
-    }
-    .proof-divider { width: 1px; height: 40px; background: var(--border); }
     .scroll-indicator { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); margin-top: 40px; }
     .scroll-line {
         width: 1px; height: 40px;
@@ -545,560 +486,8 @@
     }
     .service-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
 
-    /* ========== PROCESS ========== */
-    .process { padding: var(--section-padding) 0; background: var(--bg-surface); }
-    .process-step {
-        display: grid;
-        grid-template-columns: 100px 1fr;
-        gap: 32px;
-        padding: 40px 0;
-        border-bottom: 1px solid var(--border-subtle);
-        transition: all 0.4s;
-    }
-    .process-step:last-child { border-bottom: none; }
-    .process-step:hover .step-number {
-        color: var(--fire-mid);
-        text-shadow: 0 0 40px var(--fire-glow);
-    }
-    .step-number {
-        font-family: var(--font-display);
-        font-weight: 900;
-        font-size: 3rem;
-        color: var(--text-muted);
-        transition: all 0.4s;
-        line-height: 1;
-    }
-    .step-content h3 {
-        font-family: var(--font-display);
-        font-weight: 600;
-        font-size: 1.4rem;
-        margin-bottom: 12px;
-    }
-    .step-content p {
-        color: var(--text-secondary);
-        font-size: 1rem;
-        line-height: 1.7;
-        max-width: 600px;
-    }
-
-    /* ========== RESULTS ========== */
-    .results { padding: var(--section-padding) 0; }
-    .results-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: var(--card-gap);
-    }
-    .result-card {
-        padding: 36px 28px;
-        border: 1px solid var(--border-subtle);
-        border-radius: 8px;
-        background: var(--bg-card);
-        transition: all 0.4s;
-    }
-    .result-card:hover {
-        border-color: var(--border);
-        transform: translateY(-2px);
-    }
-    .result-icon { font-size: 2rem; margin-bottom: 16px; }
-    .result-card h3 {
-        font-family: var(--font-display);
-        font-weight: 600;
-        font-size: 1.15rem;
-        margin-bottom: 10px;
-    }
-    .result-card p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; }
-
-    /* ========== ABOUT ========== */
-    .about-slim {
-        padding: 36px 0;
-        background: linear-gradient(90deg, rgba(255,77,0,0.04), rgba(255,184,0,0.02), rgba(255,77,0,0.04));
-        border-top: 1px solid var(--border);
-        border-bottom: 1px solid var(--border);
-    }
-    .about-slim-inner {
-        display: flex;
-        align-items: center;
-        gap: 24px;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-    .about-slim-tag {
-        font-family: var(--font-accent);
-        font-weight: 700;
-        font-size: 0.72rem;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--fire-mid);
-        white-space: nowrap;
-    }
-    .about-slim-line {
-        color: var(--text-secondary);
-        font-size: 0.95rem;
-        max-width: 720px;
-        margin: 0;
-    }
-    .about-slim-line strong { color: var(--text-primary); }
-    .about-slim-cta {
-        font-family: var(--font-accent);
-        font-weight: 700;
-        font-size: 0.78rem;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        color: var(--fire-mid);
-        text-decoration: none;
-        white-space: nowrap;
-        padding: 8px 16px;
-        border: 1px solid rgba(255,140,0,0.4);
-        border-radius: 6px;
-        transition: background .2s, color .2s, border-color .2s;
-    }
-    .about-slim-cta:hover {
-        color: #fff;
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-mid));
-        border-color: var(--fire-mid);
-    }
-    .about { padding: var(--section-padding) 0; background: var(--bg-surface); position: relative; overflow: hidden; }
-    .about::after {
-        content: '';
-        position: absolute;
-        bottom: -250px;
-        right: calc((100% - var(--container-max)) / 2 + 50px);
-        width: 650px;
-        height: 650px;
-        background: url('https://phoenixmethodseo.com/assets/phoenix-bird-transparent.png') no-repeat bottom center;
-        background-size: contain;
-        opacity: 0.045;
-        pointer-events: none;
-    }
-    .about-layout {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0;
-        text-align: left;
-        max-width: 900px;
-        margin: 0 auto;
-        position: relative;
-        z-index: 2;
-    }
-    .about-text p { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.8; margin-bottom: 20px; max-width: 800px; }
-    .about-creds { display: flex; flex-wrap: wrap; gap: 20px 40px; margin-top: 32px; }
-    .cred {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        font-family: var(--font-accent);
-        font-weight: 500;
-        font-size: 0.95rem;
-    }
-    .cred-icon { font-size: 1.3rem; }
-    .about-visual { display: flex; align-items: center; justify-content: center; }
-    .about-phoenix-wrap { width: 100%; max-width: 380px; }
-    .about-logo-img {
-        width: 100%;
-        animation: phoenixFloat 6s ease-in-out infinite;
-        filter: drop-shadow(0 0 40px rgba(255, 77, 0, 0.15));
-    }
-    @keyframes phoenixFloat {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-14px); }
-    }
-
     /* ========== PRICING ========== */
-    .pricing { padding: var(--section-padding) 0; background: var(--bg-surface); }
-    .pricing-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: var(--card-gap);
-        align-items: stretch;
-    }
-    .price-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border-subtle);
-        border-radius: 10px;
-        padding: var(--card-padding-y) var(--card-padding-x);
-        position: relative;
-        transition: all 0.4s;
-        display: flex;
-        flex-direction: column;
-    }
-    .price-card:hover { transform: translateY(-4px); border-color: var(--border); }
-    .price-card.featured {
-        border-color: var(--fire-start);
-        box-shadow: 0 0 60px rgba(255, 77, 0, 0.1);
-        background: linear-gradient(180deg, rgba(255, 77, 0, 0.04) 0%, var(--bg-card) 40%);
-    }
-    .price-badge {
-        position: absolute;
-        top: -12px; left: 50%;
-        transform: translateX(-50%);
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-mid));
-        color: #fff;
-        font-family: var(--font-accent);
-        font-weight: 600;
-        font-size: 0.7rem;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        padding: 6px 20px;
-        border-radius: 20px;
-    }
-    .price-tier {
-        font-family: var(--font-accent);
-        font-weight: 600;
-        font-size: 0.8rem;
-        letter-spacing: 0.2em;
-        text-transform: uppercase;
-        color: var(--fire-mid);
-        margin-bottom: 12px;
-    }
-    .price-amount {
-        font-family: var(--font-display);
-        font-weight: 900;
-        font-size: 3rem;
-        margin-bottom: 12px;
-    }
-    .price-amount span { font-size: 1rem; font-weight: 400; color: var(--text-muted); }
-    .price-desc { color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 28px; line-height: 1.6; }
-    .price-features { list-style: none; margin-bottom: 20px; flex: 1; }
-    .price-card > .btn { width: 100%; margin-top: auto; text-align: center; justify-content: center; }
-    .price-features li {
-        padding: 8px 0;
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        border-bottom: 1px solid var(--border-subtle);
-        padding-left: 24px;
-        position: relative;
-    }
-    .price-features li:last-child { border-bottom: none; }
-    .price-features li::before { content: '→'; position: absolute; left: 0; color: var(--fire-mid); font-weight: 600; }
-
-    /* ========== INDUSTRY STRIP ========== */
-    .industry-strip {
-        display: flex; align-items: center; justify-content: center;
-        flex-wrap: wrap; gap: 10px 20px;
-        padding: 20px 32px; margin-top: 40px;
-        background: linear-gradient(135deg, rgba(255,77,0,0.08), rgba(255,184,0,0.04));
-        border: 1px solid rgba(255,140,0,0.3);
-        border-radius: 10px;
-        font-size: 0.9rem;
-    }
-    .industry-strip-label {
-        color: var(--fire-mid);
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        font-family: var(--font-accent);
-        font-weight: 700;
-        font-size: 0.78rem;
-    }
-    .industry-strip a {
-        color: var(--text-primary); text-decoration: none;
-        padding: 6px 16px; border-radius: 99px;
-        border: 1px solid rgba(255,140,0,0.5);
-        background: rgba(255,77,0,0.08);
-        transition: color 0.2s, border-color 0.2s, background 0.2s, transform 0.15s;
-        font-family: var(--font-accent); font-size: 0.82rem;
-        letter-spacing: 0.08em; text-transform: uppercase;
-        font-weight: 600;
-    }
-    .industry-strip a:hover {
-        color: #fff;
-        border-color: var(--fire-mid);
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-mid));
-        transform: translateY(-1px);
-    }
-
-    /* ========== FEATURE EXPANDABLE DROPDOWNS ========== */
-    .feature-detail { margin: 0; }
-    .feature-detail > summary {
-        list-style: none;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 8px;
-        font-size: 0.9rem;
-        color: var(--text-secondary);
-        user-select: none;
-        line-height: 1.4;
-    }
-    .feature-detail > summary::-webkit-details-marker { display: none; }
-    .feature-detail > summary::after {
-        content: '›';
-        font-size: 1.3rem;
-        color: var(--fire-mid);
-        transition: transform 0.25s ease;
-        flex-shrink: 0;
-        line-height: 1;
-        font-weight: 700;
-    }
-    .feature-detail[open] > summary::after { transform: rotate(90deg); }
-    .feature-detail > summary:hover { color: var(--text-primary); }
-    .feature-explain {
-        font-size: 0.82rem;
-        color: var(--text-muted);
-        line-height: 1.65;
-        padding: 8px 4px 2px 0;
-        margin-top: 6px;
-        border-top: 1px solid var(--border-subtle);
-    }
-
-    /* ========== CALLOUT ROW (Retainer Discount + À La Carte) ========== */
-    .callout-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        margin: 32px 0;
-    }
-    @media (max-width: 768px) {
-        .callout-row { grid-template-columns: 1fr; }
-    }
-    .alacarte-teaser {
-        background: linear-gradient(135deg, rgba(255,140,0,0.05) 0%, rgba(255,184,0,0.03) 100%);
-        border: 1px solid rgba(255,140,0,0.25);
-        border-radius: 10px;
-        padding: 20px 28px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    .alacarte-teaser-tag {
-        font-family: var(--font-accent);
-        font-weight: 700;
-        font-size: 0.72rem;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--fire-mid);
-        margin-bottom: 8px;
-    }
-    .alacarte-teaser-title {
-        display: block;
-        font-family: var(--font-display);
-        font-weight: 700;
-        font-size: 1.15rem;
-        color: var(--text-primary);
-        margin-bottom: 8px;
-    }
-    .alacarte-teaser p {
-        color: var(--text-secondary);
-        font-size: 0.88rem;
-        line-height: 1.5;
-        margin: 0 0 14px;
-    }
-    .alacarte-teaser .btn-sm,
-    .package-benefit .btn-sm { padding: 10px 20px; font-size: 0.8rem; align-self: center; }
-
-    /* ========== PACKAGE DISCOUNT BADGE ========== */
-    .package-benefit {
-        background: linear-gradient(135deg, rgba(255,77,0,0.08) 0%, rgba(255,140,0,0.04) 100%);
-        border: 1px solid rgba(255,140,0,0.4);
-        border-radius: 10px;
-        padding: 20px 28px;
-        margin: 0;
-        text-align: center;
-    }
-    .package-benefit-text strong.alacarte-teaser-title {
-        display: block;
-        font-family: var(--font-display);
-        font-weight: 700;
-        font-size: 1.15rem;
-        letter-spacing: normal;
-        text-transform: none;
-        color: var(--text-primary);
-        margin-bottom: 10px;
-    }
-    .benefit-stats {
-        display: flex;
-        gap: 0;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-    }
-    .benefit-stat {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 4px;
-        padding: 0 20px;
-        text-align: center;
-    }
-    .benefit-stat:first-child { border-right: 1px solid var(--border); }
-    .benefit-pct {
-        font-family: var(--font-display);
-        font-weight: 900;
-        font-size: 1.65rem;
-        color: var(--fire-mid);
-        line-height: 1;
-    }
-    .benefit-detail {
-        font-size: 0.82rem;
-        color: var(--text-secondary);
-        text-align: center;
-        max-width: 200px;
-        line-height: 1.4;
-    }
-    .benefit-tagline {
-        font-size: 0.82rem;
-        color: var(--text-muted);
-        display: block;
-        font-style: italic;
-    }
-    @media (max-width: 600px) {
-        .benefit-stat { padding: 4px 12px; }
-        .benefit-stat:first-child { border-right: none; border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 4px; }
-    }
-
-    /* ========== À LA CARTE SECTION ========== */
-    .alacarte { margin-top: 72px; }
-    .alacarte-header { text-align: center; margin-bottom: 36px; }
-    .alacarte-header h3 {
-        font-family: var(--font-display);
-        font-size: clamp(1.5rem, 3vw, 2.2rem);
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-    .alacarte-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 560px; margin: 0 auto; }
-    .alacarte-discount {
-        background: linear-gradient(135deg, rgba(255,77,0,0.08) 0%, rgba(255,140,0,0.05) 100%);
-        border: 1px solid rgba(255,140,0,0.3);
-        border-radius: 8px;
-        padding: 14px 24px;
-        text-align: center;
-        margin: 0 auto 40px;
-        max-width: 680px;
-        font-size: 0.88rem;
-        color: var(--text-secondary);
-        line-height: 1.6;
-    }
-    .alacarte-discount strong { color: var(--fire-mid); }
-    .alacarte-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-        gap: 16px;
-    }
-    .alacarte-item {
-        background: var(--bg-card);
-        border: 1px solid var(--border-subtle);
-        border-radius: 8px;
-        padding: 20px 22px;
-        transition: border-color 0.3s, transform 0.3s;
-    }
-    .alacarte-item:hover { border-color: var(--border); transform: translateY(-2px); }
-    .alacarte-name {
-        font-family: var(--font-accent);
-        font-weight: 600;
-        font-size: 0.85rem;
-        color: var(--text-primary);
-        margin-bottom: 6px;
-        line-height: 1.3;
-    }
-    .alacarte-price {
-        font-family: var(--font-display);
-        font-weight: 700;
-        font-size: 1.25rem;
-        color: var(--fire-mid);
-        margin-bottom: 8px;
-    }
-    .alacarte-desc { font-size: 0.8rem; color: var(--text-muted); line-height: 1.55; }
-
-    /* ========== POST BUNDLE PACKS ========== */
-    .post-bundles { margin-top: 64px; }
-    .post-bundles-header { text-align: center; margin-bottom: 12px; }
-    .post-bundles-header h3 {
-        font-family: var(--font-display);
-        font-size: clamp(1.4rem, 3vw, 2rem);
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-    .post-bundles-header p { color: var(--text-secondary); font-size: 0.95rem; max-width: 560px; margin: 0 auto 32px; }
-    .post-bundle-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-        gap: var(--card-gap);
-    }
-    .post-bundle-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border-subtle);
-        border-radius: 10px;
-        padding: 28px 26px;
-        position: relative;
-        transition: all 0.3s;
-        display: flex;
-        flex-direction: column;
-    }
-    .post-bundle-card:hover { transform: translateY(-3px); border-color: var(--border); }
-    .post-bundle-card.featured-bundle {
-        border-color: var(--fire-start);
-        box-shadow: 0 0 40px rgba(255,77,0,0.08);
-    }
-    .bundle-save-badge {
-        position: absolute;
-        top: -11px; right: 18px;
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-mid));
-        color: #fff;
-        font-family: var(--font-accent);
-        font-weight: 700;
-        font-size: 0.68rem;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        padding: 5px 14px;
-        border-radius: 20px;
-    }
-    .bundle-name {
-        font-family: var(--font-accent);
-        font-weight: 600;
-        font-size: 0.8rem;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: var(--fire-mid);
-        margin-bottom: 10px;
-    }
-    .bundle-post-count {
-        font-family: var(--font-display);
-        font-weight: 900;
-        font-size: 2.6rem;
-        line-height: 1;
-        margin-bottom: 4px;
-    }
-    .bundle-post-count span { font-size: 1rem; font-weight: 400; color: var(--text-muted); font-family: var(--font-body); }
-    .bundle-price {
-        font-family: var(--font-display);
-        font-weight: 700;
-        font-size: 1.5rem;
-        color: var(--fire-mid);
-        margin-bottom: 6px;
-    }
-    .bundle-per-post {
-        font-size: 0.85rem;
-        color: var(--text-secondary);
-        margin-bottom: 16px;
-    }
-    .bundle-validity {
-        font-family: var(--font-accent);
-        font-size: 0.8rem;
-        letter-spacing: 0.06em;
-        color: var(--fire-mid);
-        text-transform: uppercase;
-        border-top: 1px solid var(--border);
-        padding-top: 14px;
-        margin-bottom: 14px;
-    }
-    .bundle-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; flex: 1; margin-bottom: 20px; }
-    .bundle-types {
-        display: flex;
-        gap: 8px;
-        flex-wrap: wrap;
-        margin-bottom: 20px;
-    }
-    .bundle-tag {
-        font-size: 0.75rem;
-        font-family: var(--font-accent);
-        font-weight: 500;
-        color: var(--text-secondary);
-        border: 1px solid var(--border);
-        border-radius: 4px;
-        padding: 4px 12px;
-    }
+    .pricing { padding: var(--section-padding) 0; }
 
     /* ========== CONTACT ========== */
     .contact { padding: var(--section-padding) 0; background: var(--bg-surface); }
@@ -1109,17 +498,6 @@
         align-items: start;
     }
     .contact-text p { color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7; margin-bottom: 32px; }
-    .contact-link {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-family: var(--font-accent);
-        font-weight: 500;
-        font-size: 1rem;
-        color: var(--fire-mid);
-        transition: color 0.3s;
-    }
-    .contact-link:hover { color: var(--fire-end); }
     .contact-form-wrap {
         background: var(--bg-card);
         border: 1px solid rgba(255,255,255,0.12);
@@ -1176,62 +554,262 @@
                                                 
 
 
-    /* ========== SETUP CARDS ========== */
-    .setup-cards {
+    /* ========== HOMEPAGE SECTIONS (PM-378) ========== */
+    .hero-h1 {
+        font-family: var(--font-display);
+        font-weight: 600;
+        font-size: clamp(1.15rem, 2.6vw, 1.8rem);
+        line-height: 1.3;
+        color: var(--text-primary);
+        max-width: 720px;
+        margin: 0 auto 24px;
+    }
+    .hero-sub.hero-lead { color: var(--text-primary); margin-bottom: 16px; }
+
+    .services-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    a.service-card { display: block; }
+
+    .why { padding: var(--section-padding) 0; background: var(--bg-surface); }
+    .why-list { list-style: none; max-width: 860px; }
+    .why-list li {
+        position: relative;
+        padding: 20px 0 20px 34px;
+        border-bottom: 1px solid var(--border-subtle);
+        font-size: 1.08rem;
+        line-height: 1.7;
+    }
+    .why-list li:last-child { border-bottom: none; }
+    .why-list li::before { content: '\2192'; position: absolute; left: 0; color: var(--fire-mid); font-weight: 600; }
+    .why-list a,
+    .who-list a,
+    .blog-row a {
+        color: var(--fire-mid);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        transition: color 0.3s;
+    }
+    .why-list a:hover,
+    .who-list a:hover,
+    .blog-row a:hover { color: var(--fire-end); }
+
+    .who { padding: var(--section-padding) 0; background: var(--bg-surface); }
+    .who-list {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 16px;
+        margin-bottom: 28px;
+    }
+    .who-list li {
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        padding: 20px 24px;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .blog-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 10px 28px;
+        margin-top: 40px;
+        padding-top: 28px;
+        border-top: 1px solid var(--border-subtle);
+        font-size: 0.98rem;
+    }
+    .blog-row-label {
+        font-family: var(--font-accent);
+        font-weight: 700;
+        font-size: 0.78rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--text-secondary);
+    }
+
+    .plan-table-wrap {
+        overflow-x: auto;
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        border-radius: 10px;
+    }
+    .plan-table { width: 100%; min-width: 540px; border-collapse: collapse; text-align: left; }
+    .plan-table th,
+    .plan-table td { padding: 18px 24px; border-bottom: 1px solid var(--border-subtle); }
+    .plan-table thead th {
+        font-family: var(--font-accent);
+        font-weight: 600;
+        font-size: 0.8rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--fire-mid);
+    }
+    .plan-table tbody th {
+        font-family: var(--font-display);
+        font-weight: 700;
+        font-size: 1.15rem;
+        color: var(--text-primary);
+    }
+    .plan-table td { color: var(--text-primary); }
+    .plan-table tbody tr:last-child th,
+    .plan-table tbody tr:last-child td { border-bottom: none; }
+    @media (max-width: 600px) {
+        .plan-table { min-width: 0; }
+        .plan-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+        .plan-table tr { display: block; padding: 16px 20px; border-bottom: 1px solid var(--border-subtle); }
+        .plan-table tbody tr:last-child { border-bottom: none; }
+        .plan-table tbody th,
+        .plan-table td { display: flex; justify-content: space-between; gap: 16px; padding: 4px 0; border-bottom: none; }
+        .plan-table td::before { content: attr(data-label); color: var(--text-secondary); font-size: 0.9rem; }
+    }
+    .plan-note { color: var(--text-secondary); font-size: 1.05rem; margin: 28px 0; }
+
+    .contact-alt {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 16px;
+        margin-top: 24px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border-subtle);
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+    }
+
+    /* ========== RESTORED DETAIL (PM-378) ========== */
+    /* Service page links under the three cards */
+    .service-links-label {
+        margin-top: 40px;
+        padding-top: 28px;
+        border-top: 1px solid var(--border-subtle);
+        font-family: var(--font-accent);
+        font-weight: 700;
+        font-size: 0.78rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--text-secondary);
+    }
+    .service-links {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 0 32px;
+        margin-top: 8px;
+    }
+    .service-links li { padding: 10px 0; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6; }
+    .service-links a { display: block; font-weight: 500; font-size: 1rem; }
+    .service-links a,
+    .plan-lines a,
+    .step-content a,
+    .faq-answer a,
+    .faq-foot a {
+        color: var(--fire-mid);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        transition: color 0.3s;
+    }
+    .service-links a:hover,
+    .plan-lines a:hover,
+    .step-content a:hover,
+    .faq-answer a:hover,
+    .faq-foot a:hover { color: var(--fire-end); }
+
+    /* One line per plan under the table */
+    .plan-lines { list-style: none; margin-top: 28px; max-width: 860px; }
+    .plan-lines li { padding: 8px 0; color: var(--text-secondary); font-size: 1rem; line-height: 1.6; }
+    .plan-lines a { font-weight: 500; }
+
+    /* How we work */
+    .process { padding: var(--section-padding) 0; background: var(--bg-surface); }
+    .process-step {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 32px;
+        padding: 40px 0;
+        border-bottom: 1px solid var(--border-subtle);
+    }
+    .process-step:last-child { border-bottom: none; }
+    .step-number {
+        font-family: var(--font-display);
+        font-weight: 900;
+        font-size: 3rem;
+        color: var(--text-muted);
+        line-height: 1;
+    }
+    .step-content h3 {
+        font-family: var(--font-display);
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+    .step-content p {
+        color: var(--text-secondary);
+        font-size: 1rem;
+        line-height: 1.7;
+        max-width: 600px;
+    }
+
+    /* From the blog */
+    .insights { padding: var(--section-padding) 0; }
+    .insights-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 24px;
-        margin-bottom: 20px;
     }
-    .setup-card {
+    .insight-card-link { display: block; }
+    .insight-card-link:hover .insight-card {
+        border-color: var(--fire-start);
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px rgba(255, 77, 0, 0.1);
+    }
+    .insight-card {
+        height: 100%;
         background: var(--bg-card);
-        border: 1px solid var(--border);
-        border-radius: 10px;
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
         padding: 32px 28px;
-        position: relative;
+        transition: all 0.4s;
+        display: flex;
+        flex-direction: column;
     }
-    .setup-label {
+    .insight-category {
         font-family: var(--font-accent);
         font-weight: 600;
-        font-size: 0.65rem;
-        letter-spacing: 0.2em;
+        font-size: 0.7rem;
+        letter-spacing: 0.15em;
         text-transform: uppercase;
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-mid));
-        color: #fff;
-        padding: 4px 12px;
-        border-radius: 12px;
-        display: inline-block;
+        color: var(--fire-mid);
         margin-bottom: 14px;
     }
-    .setup-card h3 {
+    .insight-card h3 {
         font-family: var(--font-display);
         font-weight: 600;
-        font-size: 1.15rem;
-        margin-bottom: 8px;
-    }
-    .setup-price {
-        font-family: var(--font-display);
-        font-weight: 900;
-        font-size: 2rem;
-        background: linear-gradient(135deg, var(--fire-start), var(--fire-end));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        font-size: 1.1rem;
         margin-bottom: 12px;
+        line-height: 1.4;
     }
-    .setup-card p {
+    .insight-card p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7; flex: 1; }
+    .insight-date {
+        font-family: var(--font-accent);
+        font-size: 0.75rem;
         color: var(--text-secondary);
-        font-size: 0.9rem;
-        line-height: 1.7;
+        margin-top: 16px;
+        letter-spacing: 0.1em;
     }
+    .insights-more { text-align: center; margin-top: 40px; }
 
-    /* ========== FAQ ========== */
-    .faq { padding: var(--section-padding) 0; }
-    .faq-list { max-width: 800px; }
-    .faq-item {
-        border-bottom: 1px solid var(--border-subtle);
-        padding: 0;
+    /* Common questions */
+    .faq { padding: var(--section-padding) 0; position: relative; }
+    .faq::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--fire-start), transparent);
+        opacity: 0.3;
     }
+    .faq-list { max-width: 800px; }
+    .faq-item { border-bottom: 1px solid var(--border-subtle); }
     .faq-question {
         font-family: var(--font-display);
         font-weight: 600;
@@ -1252,102 +830,36 @@
         font-size: 1.4rem;
         font-weight: 300;
         color: var(--fire-mid);
-        transition: transform 0.3s;
         flex-shrink: 0;
         margin-left: 16px;
     }
-    details[open] .faq-question::after {
-        content: '—';
-    }
+    .faq-item[open] > .faq-question::after { content: '\2212'; }
     .faq-question:hover { color: var(--fire-mid); }
-    .faq-answer {
-        padding: 0 0 24px;
-    }
-    .faq-answer p {
-        color: var(--text-secondary);
-        font-size: 0.95rem;
-        line-height: 1.8;
-    }
+    .faq-answer { padding: 0 0 24px; }
+    .faq-answer p { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8; }
     .faq-more { margin-top: 22px; }
-    .faq-more > summary { cursor: pointer; list-style: none; font-family: var(--font-accent); font-weight: 600; font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--fire-mid); }
-    .faq-more > summary::-webkit-details-marker { display: none; }
-    .faq-more > summary::before { content: '+'; margin-right: 8px; }
-    .faq-more[open] > summary::before { content: '2'; }
-    .faq-more[open] details:not([open]) .faq-question::after { content: '+'; }
-
-    /* ========== INSIGHTS/BLOG ========== */
-    .insights { padding: var(--section-padding) 0; background: var(--bg-surface); }
-    .insights-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 24px;
-    }
-    .insight-card-link {
-        text-decoration: none;
-        color: inherit;
-        display: block;
-    }
-    .insight-card-link:hover .insight-card {
-        border-color: var(--fire-start);
-        transform: translateY(-4px);
-        box-shadow: 0 12px 40px rgba(255, 77, 0, 0.1);
-    }
-    .insight-card {
-        background: var(--bg-card);
-        border: 1px solid var(--border-subtle);
-        border-radius: 8px;
-        padding: 32px 28px;
-        transition: all 0.4s;
-        display: flex;
-        flex-direction: column;
-    }
-    .insight-card:hover {
-        border-color: var(--border);
-        transform: translateY(-3px);
-    }
-    .insight-category {
+    .faq-more > summary {
+        cursor: pointer;
+        list-style: none;
         font-family: var(--font-accent);
         font-weight: 600;
-        font-size: 0.7rem;
-        letter-spacing: 0.15em;
+        font-size: 0.85rem;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         color: var(--fire-mid);
-        margin-bottom: 14px;
     }
-    .insight-card h3 {
-        font-family: var(--font-display);
-        font-weight: 600;
-        font-size: 1.1rem;
-        margin-bottom: 12px;
-        line-height: 1.4;
-    }
-    .insight-card p {
-        color: var(--text-secondary);
-        font-size: 0.9rem;
-        line-height: 1.7;
-        flex: 1;
-    }
-    .insight-date {
-        font-family: var(--font-accent);
-        font-size: 0.75rem;
-        color: var(--text-muted);
-        margin-top: 16px;
-        letter-spacing: 0.1em;
-    }
+    .faq-more > summary::-webkit-details-marker { display: none; }
+    .faq-more > summary::before { content: '+'; margin-right: 8px; }
+    .faq-more[open] > summary::before { content: '\2212'; }
+    .faq-foot { margin-top: 32px; color: var(--text-secondary); font-size: 0.95rem; }
 
     /* ========== RESPONSIVE ========== */
     @media (max-width: 768px) {
-                                .services-grid { grid-template-columns: 1fr; }
+        .services-grid { grid-template-columns: 1fr; }
+        .hero-logo { max-width: 90%; }
+        .contact-layout { grid-template-columns: 1fr; }
         .process-step { grid-template-columns: 60px 1fr; gap: 20px; }
         .step-number { font-size: 2rem; }
-        .about-layout { grid-template-columns: 1fr; }
-        .about-visual { order: -1; }
-        .about-phoenix-wrap { max-width: 280px; }
-        .hero-logo { max-width: 90%; }
-        .pricing-grid { grid-template-columns: 1fr; }
-        .contact-layout { grid-template-columns: 1fr; }
-                        .hero-proof { gap: 20px; flex-wrap: wrap; }
-        .proof-divider { display: none; }
     }
     @media (max-width: 480px) {
         .hero-actions { flex-direction: column; align-items: center; }
@@ -1383,7 +895,7 @@
                     "itemOffered": {
                         "@type": "Service",
                         "name": "Spark SEO Plan",
-                        "description": "2 hours of site fixes and updates per month for sites of up to 10 pages, plus weekly technical audits, monthly rank tracking, and quarterly reporting (audit-found SEO fixes included).",
+                        "description": "2 hours of site fixes and updates per month for sites of up to 10 pages.",
                         "offers": {
                             "@type": "Offer",
                             "price": "500",
@@ -1402,7 +914,7 @@
                     "itemOffered": {
                         "@type": "Service",
                         "name": "Blaze SEO Plan",
-                        "description": "6 hours of site fixes and updates per month for sites of up to 25 pages, plus weekly technical audits, monthly rank tracking, quarterly reporting, competitor surveillance, and client portal (audit-found SEO fixes included).",
+                        "description": "6 hours of site fixes and updates per month for sites of up to 25 pages.",
                         "offers": {
                             "@type": "Offer",
                             "price": "900",
@@ -1421,7 +933,7 @@
                     "itemOffered": {
                         "@type": "Service",
                         "name": "Inferno SEO Plan",
-                        "description": "12 hours of site fixes and updates per month for sites of up to 50 pages, plus weekly technical audits, monthly rank tracking, quarterly reporting, competitor surveillance, client portal, rich-result schema, AI Overview optimization, and priority support (audit-found SEO fixes included).",
+                        "description": "12 hours of site fixes and updates per month for sites of up to 50 pages.",
                         "offers": {
                             "@type": "Offer",
                             "price": "1500",
@@ -1472,7 +984,7 @@
     <!-- ========== NAV ========== -->
     <div id="pm-nav"></div>
 
-    <!-- ========== HERO ========== -->
+    <!-- ========== 1. HERO ========== -->
     <header class="hero" id="hero">
         <div class="hero-bg-effects">
             <div class="ember ember-1"></div>
@@ -1482,386 +994,211 @@
             <div class="ember ember-5"></div>
             <div class="hero-glow"></div>
         </div>
-        <!-- ★★★ HERO SECTION - Main headline and buttons ★★★ -->
         <div class="hero-content">
-            <h1 class="hero-title">
-                <!-- EDIT: Main headline line 1 -->
+            <!-- Visual line. Not the H1. -->
+            <p class="hero-title">
                 <span class="hero-line">Dead Rankings</span>
-                <!-- EDIT: Main headline line 2 (fire color) -->
                 <span class="hero-line fire-text">Rising.</span>
-            </h1>
-            <!-- EDIT: Hero description text -->
-            <p class="hero-sub">Website management &amp; SEO for small businesses, therapy and healthcare practices, and personal sites. Phoenix Method keeps your site current, complete and trusted by Google, updated every month, and builds the rankings that turn searches into clients.</p>
+            </p>
+            <h1 class="hero-h1">SEO Consulting and Website Management for Small Business</h1>
+            <p class="hero-sub hero-lead">A website can look fine and still be broken where Google reads it. We find what is broken, fix it, and keep your site current every month.</p>
+            <p class="hero-sub">For small businesses, therapy and healthcare practices, and personal sites.</p>
             <div class="hero-actions">
-                <!-- EDIT: Main button text -->
-                <a href="#contact" class="btn btn-primary">Claim Your Free SEO Audit</a>
-                <a href="/website-management/" class="btn btn-ghost">Website Management</a>
-            </div>
-            <!-- ★★★ VALUE PILLARS - The 3 badges under the buttons ★★★ -->
-            <div class="hero-proof">
-                <div class="proof-item">
-                    <span class="pillar-icon">&#9670;</span>
-                    <span class="pillar-title">Data-Driven, Never Guesswork</span>
-                    <span class="proof-label">Ahrefs &bull; GA4 &bull; Search Console</span>
-                </div>
-                <div class="proof-divider"></div>
-                <div class="proof-item">
-                    <span class="pillar-icon">&#9547;</span>
-                    <span class="pillar-title">Multi-Industry Expertise</span>
-                    <span class="proof-label">Healthcare to Oil &amp; Gas</span>
-                </div>
-                <div class="proof-divider"></div>
-                <div class="proof-item">
-                    <span class="pillar-icon">&#9889;</span>
-                    <span class="pillar-title">Algorithm-Current, Always</span>
-                    <span class="proof-label">Every Google Update Covered</span>
-                </div>
+                <a href="/#contact" class="btn btn-primary">Get a Free Audit</a>
+                <a href="/small-business-seo-pricing/" class="btn btn-ghost">See Plans and Prices</a>
             </div>
         </div>
         <div class="scroll-indicator"><div class="scroll-line"></div></div>
     </header>
 
-    <!-- ========== SERVICES ========== -->
+    <!-- ========== 2. WHY THIS MATTERS ========== -->
+    <section class="why" id="why-this-matters">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why This Matters</span>
+                <h2 class="section-title">Here is what <span class="accent">Google says.</span></h2>
+            </div>
+            <ul class="why-list">
+                <li><a href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener">Google says</a> local results are mainly based on relevance, distance and popularity. Two of those you can work on.</li>
+                <li><a href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener">Google says</a> a business with complete and accurate information is more likely to show up in local search.</li>
+                <li><a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener">Google says</a> some changes show in hours and others take months. That is why the work is monthly.</li>
+                <li>&ldquo;No one can guarantee a #1 ranking on Google.&rdquo; That is <a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo" target="_blank" rel="noopener">Google's own line</a>. So we don't.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ========== 3. WHAT WE DO ========== -->
     <section class="services" id="services">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">What We Do</span>
-                <h2 class="section-title">Small Business SEO, <span class="accent">Focused Where It Matters</span></h2>
-                <p class="section-sub">Each service is built for how small businesses actually operate. Start with the one that fits your gap — or start with the pillar.</p>
+                <h2 class="section-title">Three ways we <span class="accent">work for you.</span></h2>
             </div>
             <div class="services-grid">
-                <a class="service-card" href="/small-business-seo/" style="text-decoration: none; color: inherit; display: block;">
-                    <div class="service-icon">
+                <a class="service-card" href="/website-management/">
+                    <div class="service-icon" aria-hidden="true">
                         <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4L6 14v20l18 10 18-10V14L24 4z" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="24" r="4" fill="currentColor"/></svg>
                     </div>
-                    <h3>Small Business SEO</h3>
-                    <p>The pillar. What small business SEO actually is, what moves the needle at your scale, and how Phoenix Method works with small businesses specifically. Start here.</p>
+                    <h3>Website Management, from $500 a month.</h3>
+                    <p>We check your site every week, fix what breaks, and make the updates you ask for.</p>
                 </a>
-                <a class="service-card" href="/services/local-seo/" style="text-decoration: none; color: inherit; display: block;">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="20" r="2" fill="currentColor"/><path d="M10 24h28" stroke="currentColor" stroke-width="2" opacity="0.3"/></svg>
-                    </div>
-                    <h3>Local SEO</h3>
-                    <p>Win the Google map pack. GBP optimization, NAP consistency, Tier 1 citations, local schema, and review strategy for businesses with physical locations or service areas.</p>
-                </a>
-                <a class="service-card" href="/services/technical-seo/" style="text-decoration: none; color: inherit; display: block;">
-                    <div class="service-icon">
+                <a class="service-card" href="/small-business-seo-pricing/#setups">
+                    <div class="service-icon" aria-hidden="true">
                         <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 14h24M12 24h24M12 34h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="38" cy="34" r="6" stroke="currentColor" stroke-width="2"/></svg>
                     </div>
-                    <h3>Technical SEO</h3>
-                    <p>Find what's silently killing your rankings. Crawlability, Core Web Vitals, schema, site architecture, and indexing — fixed in priority order, not a 100-page PDF.</p>
+                    <h3>One-time setup, $800.</h3>
+                    <p>The groundwork for a site that has never had SEO, or for your Google listing and local search.</p>
                 </a>
-                <a class="service-card" href="/services/content-seo/" style="text-decoration: none; color: inherit; display: block;">
-                    <div class="service-icon">
+                <a class="service-card" href="/order.html">
+                    <div class="service-icon" aria-hidden="true">
                         <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 40L18 8h12l10 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M12 28h24M16 20h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.5"/></svg>
                     </div>
-                    <h3>Content SEO</h3>
-                    <p>Topic clusters, keyword strategy, and substantive content that compounds. Written by humans who understand your industry, optimized for Google, edited for accuracy.</p>
-                </a>
-                <a class="service-card" href="/services/gbp-optimization/" style="text-decoration: none; color: inherit; display: block;">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4L6 14v20l18 10 18-10V14L24 4z" stroke="currentColor" stroke-width="2" opacity="0.3"/><circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="2"/><path d="M24 18v6l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-                    </div>
-                    <h3>GBP Optimization</h3>
-                    <p>Your Google Business Profile is the most valuable digital real estate most local businesses ignore. We tune it to win the 3-pack.</p>
-                </a>
-                <a class="service-card" href="/services/ai-overview-optimization/" style="text-decoration: none; color: inherit; display: block;">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4v8M24 36v8M4 24h8M36 24h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/></svg>
-                    </div>
-                    <h3>AI Overview Optimization</h3>
-                    <p>Get cited in Google's AI-generated answers. The new top spot — won with structure, E-E-A-T, and advanced schema most competitors haven't deployed yet.</p>
+                    <h3>One-off work, no plan needed.</h3>
+                    <p>A page update, a blog post, a Google post. Buy only what you need.</p>
                 </a>
             </div>
-            <div class="industry-strip">
-                <span class="industry-strip-label">Browse by industry</span>
-                <a href="/industries/healthcare-seo/">Healthcare SEO</a>
-                <a href="/industries/mental-health-seo/">Mental Health SEO</a>
-                <a href="/industries/dental-seo/">Dental SEO</a>
-                <a href="/industries/agriculture-seo/">Agriculture SEO</a>
-                <a href="/industries/oil-gas-seo/">Oil &amp; Gas SEO</a>
-            </div>
+            <p class="service-links-label">Each service has its own page</p>
+            <ul class="service-links">
+                <li><a href="/small-business-seo/">Small Business SEO</a> What SEO is for a small business and how we do it.</li>
+                <li><a href="/services/local-seo/">Local SEO</a> Your Google listing, directory listings, local schema and reviews, for a business with a location or a service area.</li>
+                <li><a href="/services/gbp-optimization/">Google Business Profile</a> We complete your Google listing and keep its details accurate.</li>
+                <li><a href="/services/technical-seo/">Site Fixes</a> Crawling, indexing, page speed, schema and site structure, fixed in priority order.</li>
+                <li><a href="/services/content-seo/">Blog Posts and Pages</a> Keyword research, topic planning and writing, done by people and edited for accuracy.</li>
+                <li><a href="/services/ai-overview-optimization/">Google AI Answers</a> Page structure and schema work for Google's AI-generated answers.</li>
+            </ul>
         </div>
     </section>
 
-    <!-- ========== PROCESS ========== -->
-    <section class="process" id="process">
+    <!-- ========== 4. WHO WE HELP ========== -->
+    <section class="who" id="who-we-help">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">How We Work</span>
-                <h2 class="section-title">The Phoenix <span class="accent">Method</span></h2>
-                <p class="section-sub">A battle-tested process that turns search chaos into strategic dominance.</p>
+                <span class="section-tag">Who We Help</span>
+                <h2 class="section-title">Small businesses. Practices. <span class="accent">People with a name to protect.</span></h2>
             </div>
-            <!-- ★★★ PROCESS STEPS - The 4-step method ★★★ -->
-            <div class="process-timeline">
-                <div class="process-step">
-                    <div class="step-number">01</div>
-                    <div class="step-content">
-                        <h3>Autopsy & Recon</h3>
-                        <p>We tear apart your current SEO landscape and dissect your competitors' strategies. Site health, keyword gaps, technical debt, backlink profiles, and untapped domination opportunities. Nothing hides. Nothing survives unexamined.</p>
-                    </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">02</div>
-                    <div class="step-content">
-                        <h3>Battle Plan & Blueprint</h3>
-                        <p>Custom domination roadmap built around your goals, market position, and competitive landscape. Prioritized strike list, content warfare calendar, and technical fixes — all mapped to KPIs that prove ROI.</p>
-                    </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">03</div>
-                    <div class="step-content">
-                        <h3>Resurrect & Conquer</h3>
-                        <p>We deploy on-page optimizations, launch content offensives, obliterate technical issues, and ignite campaigns. Real-time algorithm surveillance ensures we pivot before your competitors even know what hit them.</p>
-                    </div>
-                </div>
-                <div class="process-step">
-                    <div class="step-number">04</div>
-                    <div class="step-content">
-                        <h3>Rise & Scale</h3>
-                        <p>Transparent quarterly intelligence reports with undeniable ROI metrics. As rankings climb, we identify new territories to conquer and scale what's working to compound your domination.</p>
-                    </div>
-                </div>
+            <ul class="who-list">
+                <li><a href="/small-business-seo/">Small business owners</a></li>
+                <li><a href="/industries/mental-health-seo/">Therapy and mental health practices</a></li>
+                <li><a href="/industries/healthcare-seo/">Healthcare</a> and <a href="/industries/dental-seo/">dental</a> practices</li>
+                <li><a href="/industries/agriculture-seo/">Agriculture</a> and <a href="/industries/oil-gas-seo/">oil and gas</a> suppliers</li>
+                <li>Artists, authors and consultants with a personal site</li>
+            </ul>
+            <a href="/industries/" class="btn btn-ghost btn-sm">All industries</a>
+            <div class="blog-row">
+                <span class="blog-row-label">Popular guides</span>
+                <a href="/blog/tips-for-improving-website-rankings.html">Tips for improving website rankings</a>
+                <a href="/blog/seo-for-psychiatrists.html">SEO for psychiatrists</a>
+                <a href="/blog/therapist-website-management.html">Who should run a therapist's website</a>
+                <a href="/blog/">All posts</a>
             </div>
         </div>
     </section>
 
-    <!-- ========== RESULTS ========== -->
-    <section class="results" id="why-phoenix-method">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Why Phoenix Method</span>
-                <h2 class="section-title">Results That <span class="accent">Speak</span></h2>
-            </div>
-            <div class="results-grid">
-                <div class="result-card">
-                    <div class="result-icon">⚡</div>
-                    <h3>Algorithm-Current</h3>
-                    <p>We live inside Google's algorithm — Helpful Content updates, Core Updates, AI Overviews, link spam penalties. Your strategy adapts and conquers while your competitors are still reading the news.</p>
-                </div>
-                <div class="result-card">
-                    <div class="result-icon">🎯</div>
-                    <h3>Multi-Industry Expertise</h3>
-                    <p>From dental offices and rehab centers to oil and gas companies and farming equipment suppliers — we've built and maintained sites across 10+ industries. We infiltrate your market, then dominate it.</p>
-                </div>
-                <div class="result-card">
-                    <div class="result-icon">📊</div>
-                    <h3>Data, Not Guesswork</h3>
-                    <p>Every decision backed by Ahrefs, Wincher, GA4, Search Console, and proprietary analysis. We track what matters, amplify what converts, and annihilate what doesn't.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========== PRICING ========== -->
+    <!-- ========== 5. PLANS ========== -->
     <section class="pricing" id="pricing">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Investment</span>
-                <h2 class="section-title">Plans That <span class="accent">Scale</span></h2>
-                <p class="section-sub">Upkeep plans sized to your site. Prices cover small business sites: Spark up to 10 pages, Blaze up to 25, Inferno up to 50. Bigger site? We quote it first.</p>
+                <span class="section-tag">Plans</span>
+                <h2 class="section-title">Sized by page count. <span class="accent">Month to month.</span></h2>
             </div>
-
-            <!-- One-time setups -->
-            <!-- ★★★ ONE-TIME SETUP PRICING ★★★ -->
-            <div class="setup-cards">
-                <div class="setup-card">
-                    <span class="setup-label">One-Time</span>
-                    <h3>SEO Foundation Setup</h3>
-                    <div class="setup-price">$800</div>
-                    <p>Complete technical SEO audit and fixes, on-page optimization for up to 10 pages ($50 for each extra page), GA4 and Search Console setup, sitemap, robots.txt, baseline schema markup, and performance baseline report. Sites over 25 pages are quoted first.</p>
-                    <a href="https://phoenixmethodseo.com/get-started.html?plan=seo-setup" class="btn btn-ghost btn-sm" style="margin-top: 16px;">Get Started</a>
-                </div>
-                <div class="setup-card">
-                    <span class="setup-label">One-Time</span>
-                    <h3>Local SEO Setup</h3>
-                    <div class="setup-price">$800</div>
-                    <p>Google Business Profile optimization, NAP consistency audit, 10 local citations, local schema markup, 3 GBP posts, and review generation templates.</p>
-                    <a href="https://phoenixmethodseo.com/get-started.html?plan=local-seo" class="btn btn-ghost btn-sm" style="margin-top: 16px;">Get Started</a>
-                </div>
+            <div class="plan-table-wrap">
+                <table class="plan-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Plan</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Site size</th>
+                            <th scope="col">Hours of fixes and updates</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Spark</th>
+                            <td data-label="Price">$500 a month</td>
+                            <td data-label="Site size">Up to 10 pages</td>
+                            <td data-label="Hours of fixes and updates">2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Blaze</th>
+                            <td data-label="Price">$900 a month</td>
+                            <td data-label="Site size">Up to 25 pages</td>
+                            <td data-label="Hours of fixes and updates">6</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Inferno</th>
+                            <td data-label="Price">$1,500 a month</td>
+                            <td data-label="Site size">Up to 50 pages</td>
+                            <td data-label="Hours of fixes and updates">12</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-
-            <h3 style="font-family: var(--font-display); font-size: 1.3rem; margin: 48px 0 24px; text-align: center; color: var(--text-secondary);">Monthly Retainers</h3>
-
-            <!-- ★★★ MONTHLY RETAINER PRICING - Spark / Blaze / Inferno ★★★ -->
-
-            <div class="pricing-grid">
-                <div class="price-card">
-                    <div class="price-tier">Spark</div>
-                    <div class="price-amount">$500<span>/mo</span></div>
-                    <p class="price-desc" style="font-size:0.9rem;color:var(--text-muted);margin-bottom:20px">For sites of up to 10 pages.</p>
-                    <ul class="price-features">
-                        <li><details class="feature-detail">
-                            <summary>Monthly rank tracking</summary>
-                            <div class="feature-explain">We monitor your keywords every month and show you exactly where you rank — so you always know what's moving.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>Weekly technical SEO audit</summary>
-                            <div class="feature-explain">Weekly scan for crawl errors, broken links, slow pages, and any technical issues holding back your rankings. Your keywords get checked with every audit.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>2 hrs site fixes &amp; updates</summary>
-                            <div class="feature-explain">Technical fixes, content updates, and changes you ask for on the pages you already have. Audit-found SEO fixes pull from these hours too, prioritized by impact.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>Quarterly report</summary>
-                            <div class="feature-explain">Every three months: what we fixed, how your keywords moved, and what comes next.</div>
-                        </details></li>
-                    </ul>
-                    <a href="/plans/spark/" class="btn btn-ghost btn-sm">See Spark Details &rarr;</a>
-                </div>
-                <div class="price-card featured">
-                    <div class="price-badge">Most Popular</div>
-                    <div class="price-tier">Blaze</div>
-                    <div class="price-amount">$900<span>/mo</span></div>
-                    <p class="price-desc" style="font-size:0.9rem;color:var(--text-muted);margin-bottom:20px">For sites of up to 25 pages.</p>
-                    <ul class="price-features">
-                        <li><details class="feature-detail">
-                            <summary>Everything in Spark</summary>
-                            <div class="feature-explain">All Spark deliverables included — weekly technical audits, monthly rank tracking, and quarterly reports.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>6 hrs site fixes &amp; updates</summary>
-                            <div class="feature-explain">Technical fixes, content updates, and changes you ask for on the pages you already have. Audit-found SEO fixes pull from these hours too, prioritized by impact.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>Competitor surveillance</summary>
-                            <div class="feature-explain">We track what your top competitors rank for and use it to find your fastest path to the front page.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>Private client portal</summary>
-                            <div class="feature-explain">A dedicated dashboard updated monthly with your keyword rankings, the month's work, reports, billing, and direct messaging. <a href="/client-portal.html" style="color:var(--fire-mid)">See what's inside &rarr;</a></div>
-                        </details></li>
-                    </ul>
-                    <a href="/plans/blaze/" class="btn btn-primary btn-sm">See Blaze Details &rarr;</a>
-                </div>
-                <div class="price-card">
-                    <div class="price-tier">Inferno</div>
-                    <div class="price-amount">$1,500<span>/mo</span></div>
-                    <p class="price-desc" style="font-size:0.9rem;color:var(--text-muted);margin-bottom:20px">For sites of up to 50 pages and multi-location businesses.</p>
-                    <ul class="price-features">
-                        <li><details class="feature-detail">
-                            <summary>Everything in Blaze</summary>
-                            <div class="feature-explain">All Blaze deliverables included — client portal, competitor tracking, and increased monthly hours.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>12 hrs site fixes &amp; updates</summary>
-                            <div class="feature-explain">Technical fixes, content updates, and rewrites of the pages you already have. Audit-found SEO fixes pull from these hours too, prioritized by impact.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>Advanced schema markup</summary>
-                            <div class="feature-explain">Structured data that helps Google understand exactly what you offer — richer search results and more visibility.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>AI Overview optimization</summary>
-                            <div class="feature-explain">We structure your content to appear in Google's AI Overview responses — the new front line of search visibility in 2026.</div>
-                        </details></li>
-                        <li><details class="feature-detail">
-                            <summary>Priority support</summary>
-                            <div class="feature-explain">Same-day response time and direct access to your strategist for time-sensitive questions or urgent changes.</div>
-                        </details></li>
-                    </ul>
-                    <a href="/plans/inferno/" class="btn btn-ghost btn-sm">See Inferno Details &rarr;</a>
-                </div>
-            </div>
-
-            <!-- Retainer Discount + A La Carte (2-column callout row) -->
-            <div class="callout-row">
-                <div class="package-benefit">
-                    <div class="package-benefit-text">
-                        <span class="alacarte-teaser-tag">Plan Perks</span>
-                        <strong class="alacarte-teaser-title">Monthly Retainer Discount</strong>
-                        <div class="benefit-stats">
-                            <div class="benefit-stat">
-                                <span class="benefit-pct">25% off</span>
-                                <span class="benefit-detail">scoped work hourly rate</span>
-                            </div>
-                            <div class="benefit-stat">
-                                <span class="benefit-pct">25% off</span>
-                                <span class="benefit-detail">all à la carte services</span>
-                            </div>
-                        </div>
-                        <a href="/small-business-seo-pricing/" class="btn btn-primary btn-sm" style="margin-top: 8px;">Compare All Plans &rarr;</a>
-                    </div>
-                </div>
-                <div class="alacarte-teaser">
-                    <span class="alacarte-teaser-tag">À La Carte</span>
-                    <strong class="alacarte-teaser-title">Only Pay for What You Need</strong>
-                    <p>No retainer required. GBP posts, citations, audits, keyword research, review templates, content work — pick what you need, when you need it.</p>
-                    <a href="/order.html" class="btn btn-primary btn-sm" style="margin-top: 8px;">Browse the Shop &rarr;</a>
-                </div>
-            </div>
-
-            <!-- ========== POST BUNDLE PACKS ========== -->
-            <div class="post-bundles">
-                <div class="post-bundles-header">
-                    <span class="section-tag">Content Packs</span>
-                    <h3>Post Bundles — <span class="accent">Buy in Bulk, Save More</span></h3>
-                    <p>Pre-purchase GBP post copy at a lower rate and use the batch on your schedule. We write GBP posts (written to spec for your profile) — not general social media management.</p>
-                </div>
-                <div class="post-bundle-grid">
-                    <div class="post-bundle-card">
-                        <div class="bundle-name">Starter Pack</div>
-                        <div class="bundle-post-count">5 <span>posts</span></div>
-                        <div class="bundle-price">$165</div>
-                        <div class="bundle-per-post">$33/post avg &mdash; standalone rates up to $45</div>
-                        <div class="bundle-validity">&#9670; Valid for 3 months</div>
-                        <div class="bundle-types">
-                            <span class="bundle-tag">GBP Posts</span>
-                            <span class="bundle-tag">Written to Spec</span>
-                        </div>
-                        <div class="bundle-desc">Perfect for maintaining a consistent GBP posting cadence without committing to a monthly plan. Use the batch whenever you need it.</div>
-                        <a href="https://square.link/u/R1WxsySd" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Buy Now &rarr;</a>
-                    </div>
-                    <div class="post-bundle-card featured-bundle">
-                        <div class="bundle-save-badge">Best Value</div>
-                        <div class="bundle-name">Growth Pack</div>
-                        <div class="bundle-post-count">10 <span>posts</span></div>
-                        <div class="bundle-price">$295</div>
-                        <div class="bundle-per-post">$29.50/post avg &mdash; save up to $105 vs standalone</div>
-                        <div class="bundle-validity">&#9670; Valid for 6 months</div>
-                        <div class="bundle-types">
-                            <span class="bundle-tag">GBP Posts</span>
-                            <span class="bundle-tag">Written to Spec</span>
-                        </div>
-                        <div class="bundle-desc">Enough GBP post copy to keep your profile active for half a year. Most clients use 1–2 posts per week — this covers that comfortably without overpaying.</div>
-                        <a href="https://square.link/u/X3yNgGME" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Buy Now &rarr;</a>
-                    </div>
-                    <div class="post-bundle-card">
-                        <div class="bundle-name">Authority Pack</div>
-                        <div class="bundle-post-count">20 <span>posts</span></div>
-                        <div class="bundle-price">$520</div>
-                        <div class="bundle-per-post">$26/post avg &mdash; save up to $380 vs standalone</div>
-                        <div class="bundle-validity">&#9670; Valid for 12 months</div>
-                        <div class="bundle-types">
-                            <span class="bundle-tag">GBP Posts</span>
-                            <span class="bundle-tag">Written to Spec</span>
-                        </div>
-                        <div class="bundle-desc">A full year of GBP post copy at the lowest per-post rate available. Ideal for businesses that want to keep their Google Business Profile active without thinking about it month to month.</div>
-                        <a href="https://square.link/u/FqHB12Gz" class="btn btn-ghost btn-sm" target="_blank" rel="noopener">Buy Now &rarr;</a>
-                    </div>
-                </div>
-            </div>
-
+            <ul class="plan-lines">
+                <li><a href="/plans/spark/">Spark</a>: 2 hours of fixes and updates a month for a site of up to 10 pages.</li>
+                <li><a href="/plans/blaze/">Blaze</a>: 6 hours a month for a site of up to 25 pages, plus competitor tracking and a client portal.</li>
+                <li><a href="/plans/inferno/">Inferno</a>: 12 hours a month for a site of up to 50 pages, plus rich-result schema, Google AI answer work and priority support.</li>
+                <li>Every plan comes with a report each quarter.</li>
+            </ul>
+            <p class="plan-note">No contract. Cancel with one email. Bigger site? We quote it first.</p>
+            <a href="/small-business-seo-pricing/" class="btn btn-primary">Compare Plans</a>
         </div>
     </section>
 
-    <!-- ========== CONTACT ========== -->
-
-    <!-- ========== INSIGHTS / BLOG ========== -->
-    <section class="insights" id="insights">
+    <!-- ========== HOW WE WORK (restored, PM-378) ========== -->
+    <section class="process" id="process">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">From the Blog</span>
-                <h2 class="section-title">SEO Intelligence, <span class="accent">No Fluff</span></h2>
-                <p class="section-sub">Algorithm updates, platform breakdowns, and what's actually working in search right now &mdash; written for the people doing the work.</p>
+                <span class="section-tag">The Phoenix Method</span>
+                <h2 class="section-title">How we <span class="accent">work.</span></h2>
+                <p class="section-sub">Four steps: audit, plan, fix, report.</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number" aria-hidden="true">01</div>
+                    <div class="step-content">
+                        <h3>Audit</h3>
+                        <p>We go through your site as it is today. We check site health, <a href="/services/technical-seo/">technical problems</a> and where you rank, and we write down what is broken and what is missing.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number" aria-hidden="true">02</div>
+                    <div class="step-content">
+                        <h3>Plan</h3>
+                        <p>Everything we found goes on a list, most important first. You see what gets fixed and the numbers we will track, so you can see what the work did.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number" aria-hidden="true">03</div>
+                    <div class="step-content">
+                        <h3>Fix</h3>
+                        <p>We fix the technical problems and update the pages you already have. New <a href="/services/content-seo/">blog posts and pages</a> are add-ons you can order any time. We keep up with Google's updates and adjust the list when one affects your site.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number" aria-hidden="true">04</div>
+                    <div class="step-content">
+                        <h3>Report</h3>
+                        <p>Every <a href="/small-business-seo-pricing/">plan</a> gets a report each quarter. It shows what was done and what the numbers did. Then we pick the next pages and searches to work on and do more of what is working.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FROM THE BLOG (restored, PM-378) ========== -->
+    <section class="insights" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Articles</span>
+                <h2 class="section-title">From the <span class="accent">blog.</span></h2>
+                <p class="section-sub">Google updates, platform comparisons and notes on how we do the work.</p>
             </div>
             <div class="insights-grid">
                 <a href="/wordpress-vs-squarespace-therapist-seo.html" class="insight-card-link">
                     <article class="insight-card">
                         <span class="insight-category">Healthcare SEO</span>
                         <h3>WordPress vs. Squarespace for Therapist Websites &mdash; SEO Breakdown</h3>
-                        <p>Platform choice determines your SEO ceiling. We break down technical control, schema, local SEO, and what professional WordPress SEO services can actually build on each platform.</p>
+                        <p>We compare the two platforms for a therapy practice site: technical control, schema, local SEO, and what can be built on each.</p>
                         <span class="insight-date">June 20, 2026 &bull; READ NOW</span>
                     </article>
                 </a>
@@ -1869,7 +1206,7 @@
                     <article class="insight-card">
                         <span class="insight-category">Algorithm Updates</span>
                         <h3>Google's March 2026 Core Update: What Changed and What to Do</h3>
-                        <p>Over 55% of sites saw ranking shifts. E-E-A-T tightened for healthcare. AI content under scrutiny. Here's what changed and your 6-step response plan.</p>
+                        <p>Our write-up of the March 2026 core update: what changed and the steps we recommend in response.</p>
                         <span class="insight-date">March 26, 2026 &bull; READ NOW</span>
                     </article>
                 </a>
@@ -1877,49 +1214,47 @@
                     <article class="insight-card">
                         <span class="insight-category">Technical SEO</span>
                         <h3>AI Overviews and Your Rankings: How to Optimize for Google's New Search</h3>
-                        <p>Google's AI-generated summaries are changing how users interact with search. Here's how to ensure your content gets cited in AI Overviews.</p>
+                        <p>What an AI Overview is, and the work we do on a page with AI Overviews in mind.</p>
                         <span class="insight-date">March 28, 2026 &bull; READ NOW</span>
                     </article>
                 </a>
             </div>
-            <div style="text-align: center; margin-top: 40px;">
+            <div class="insights-more">
                 <a href="/blog/" class="btn btn-ghost btn-sm">View All Posts &rarr;</a>
             </div>
         </div>
     </section>
 
-    <!-- ========== FAQ ========== -->
+    <!-- ========== COMMON QUESTIONS (restored, PM-378) ========== -->
     <section class="faq" id="faq">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Common Questions</span>
-                <h2 class="section-title">Frequently <span class="accent">Asked</span></h2>
+                <span class="section-tag">Answers</span>
+                <h2 class="section-title">Common <span class="accent">questions.</span></h2>
             </div>
-            <!-- ★★★ FAQ QUESTIONS AND ANSWERS ★★★ -->
             <div class="faq-list">
                 <details class="faq-item">
                     <summary class="faq-question">What is SEO and why does my business need it?</summary>
                     <div class="faq-answer">
-                        <p>SEO (Search Engine Optimization) is the practice of improving your website's visibility in Google search results. When potential customers search for services you offer, SEO ensures your business appears at the top instead of your competitors. For healthcare and therapy practices, this is critical — 77% of patients use search engines before booking an appointment. Without SEO, you're invisible to the people actively looking for what you offer.</p>
+                        <p>SEO (search engine optimization) is the work of improving how your website shows up in Google search results. A website can look fine and still be broken where Google reads it. We find what is broken, fix it, and <a href="/website-management/">keep your site current every month</a>, so it is ready when someone searches for the services you offer.</p>
                     </div>
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">How long does it take to see SEO results?</summary>
                     <div class="faq-answer">
-                        <p>There's no honest answer that gives you a specific date — anyone promising "page one in 30 days" is either lying or selling something that'll backfire. SEO is a compounding investment: foundation work builds on itself, rankings stabilize over time, and the real return comes from consistency. Some technical fixes produce quick visibility gains. Others take months to reflect in rankings. We don't promise timelines we can't control — we promise transparent reporting and a strategy built to last.</p>
+                        <p>We do not promise dates. <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener">Google says</a> some changes show in hours and others take months. What we control is the work. We do it every month, and we send you a report every quarter that shows what was done.</p>
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary class="faq-question">What makes Phoenix Method different from other SEO agencies?</summary>
+                    <summary class="faq-question">What do I get with Phoenix Method?</summary>
                     <div class="faq-answer">
-                        <p>Most agencies hand you off to a junior account manager and run templated reports. Phoenix Method doesn't work that way — every campaign is built from scratch, every strategy is custom, and you're working directly with the people doing the actual work.</p>
-                        <p>We also don't make promises we can't back with data. No guaranteed rankings, no inflated projections — just transparent quarterly reporting, real keyword movement, and strategies that compound over time. We monitor Google algorithm updates in real-time and adapt before your competitors even read the news.</p>
+                        <p>A plan sized to your site, by page count. Work on your site every month. A report every quarter that shows what was done. One point of contact, so you talk directly with the people doing the work. We do not promise rankings. <a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo" target="_blank" rel="noopener">Google says</a> &ldquo;No one can guarantee a #1 ranking on Google.&rdquo; So we don't.</p>
                     </div>
                 </details>
                 <details class="faq-item">
-                    <summary class="faq-question">What industries do you work with?</summary>
+                    <summary class="faq-question">What kinds of businesses do you help?</summary>
                     <div class="faq-answer">
-                        <p>We work across a wide range of industries. Our portfolio includes dental practices, mental health providers, rehab centers, medical offices, oil and gas companies, agriculture and farming equipment suppliers, goods suppliers, creative professionals like painters and artists, and more. Healthcare is where we started, but the Phoenix Method works in any competitive market.</p>
+                        <p>Small businesses, practices and personal sites. That covers <a href="/industries/dental-seo/">dental practices</a>, <a href="/industries/mental-health-seo/">mental health providers</a>, rehab centers, <a href="/industries/healthcare-seo/">medical offices</a>, <a href="/industries/oil-gas-seo/">oil and gas companies</a>, <a href="/industries/agriculture-seo/">agriculture and farming equipment suppliers</a>, goods suppliers, and creative professionals such as painters and artists. <a href="/industries/">See all industries</a>.</p>
                     </div>
                 </details>
                 <details class="faq-more"><summary>More questions (3)</summary>
@@ -1932,33 +1267,29 @@
                     <details class="faq-item">
                         <summary class="faq-question">How does Google's AI Overview affect SEO in 2026?</summary>
                         <div class="faq-answer">
-                            <p>Google's AI Overviews generate summary answers at the top of search results. To appear in these, your content needs strong E-E-A-T signals, clear structure with proper schema markup, and comprehensive answers to specific questions. Phoenix Method optimizes content for AI Overview visibility alongside traditional organic rankings.</p>
+                            <p>An AI Overview is a summary answer that Google generates and shows at the top of some search results. We do <a href="/services/ai-overview-optimization/">AI Overview work</a> alongside regular search work: page structure, schema markup and clear answers to specific questions. It is part of the <a href="/plans/inferno/">Inferno plan</a>, and it is also a one-off service at $125 per page.</p>
                         </div>
                     </details>
                     <details class="faq-item">
                         <summary class="faq-question">Do you offer one-off services without a monthly plan?</summary>
                         <div class="faq-answer">
-                            <p>Yes. We offer à la carte services including content updates ($100/hr), individual blog posts ($150-200 each), new service pages ($250), schema markup implementation ($100 per type), Google Business Profile setup ($300), and quick technical audits ($150). These are perfect for businesses that need targeted help without a full retainer commitment.</p>
+                            <p>Yes. One-off services include content updates ($100 an hour), single blog posts ($150 to $200 each), a new service or landing page ($250), schema markup ($100 per type), Google Business Profile setup ($300) and a quick technical SEO audit ($150). You buy only what you need, with no monthly plan. Plan clients get 25% off one-off services. <a href="/order.html">See every one-off service and price</a>.</p>
                         </div>
                     </details>
                 </details>
             </div>
+            <p class="faq-foot">More answers are on the <a href="/faq/">FAQ page</a>.</p>
         </div>
     </section>
 
+    <!-- ========== 6. FREE AUDIT ========== -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="contact-layout">
                 <div class="contact-text">
-                    <span class="section-tag">Let's Talk</span>
-                    <h2 class="section-title">Ready to <span class="accent">Rise?</span></h2>
-                    <p>Get a free, no-obligation SEO audit of your website. We'll expose exactly where you're hemorrhaging traffic and visibility — and hand you the battle plan to total search domination.</p>
-                    <div class="contact-info">
-                        <a href="/services/seo-development/" class="btn btn-primary" style="margin-bottom: 20px;">Have a Custom Project? &rarr;</a>
-                        <a href="mailto:hello@phoenixmethodseo.com" class="contact-link">
-                            <span>✉</span> hello@phoenixmethodseo.com
-                        </a>
-                    </div>
+                    <span class="section-tag">Free Audit</span>
+                    <h2 class="section-title">See what is broken <span class="accent">before you spend anything.</span></h2>
+                    <p>The free audit grades three things on your site: technical SEO, on-page SEO and mobile speed. You get a letter grade for each and a plain list of what is broken and why it costs you. No obligation.</p>
                 </div>
                 <div class="contact-form-wrap">
                     <form class="contact-form" id="contactForm" method="POST" action="https://portal.phoenixmethod.workers.dev/api/site-form">
@@ -2007,6 +1338,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-full">Send My Free Audit Request</button>
                     </form>
+                    <p class="contact-alt">Have a question instead? <a href="/contact/" class="btn btn-ghost btn-sm">Ask a Question</a></p>
                 </div>
             </div>
         </div>
@@ -2015,62 +1347,6 @@
     <!-- ========== FOOTER ========== -->
     <div id="pm-footer"></div>
 
-    <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        // Nav scroll
-        const nav = document.getElementById('nav');
-        window.addEventListener('scroll', () => {
-            nav.classList.toggle('scrolled', window.scrollY > 60);
-        }, { passive: true });
-
-        // Mobile nav
-        const navToggle = document.getElementById('navToggle');
-        const navLinks = document.getElementById('navLinks');
-        navToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('open');
-        });
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => navLinks.classList.remove('open'));
-        });
-
-        // Scroll reveal
-        const revealEls = document.querySelectorAll(
-            '.service-card, .process-step, .result-card, .price-card, .about-layout, .contact-layout, .section-header, .faq-item, .insight-card'
-        );
-        revealEls.forEach(el => el.classList.add('reveal'));
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const siblings = entry.target.parentElement.querySelectorAll('.reveal');
-                    const idx = Array.from(siblings).indexOf(entry.target);
-                    setTimeout(() => entry.target.classList.add('visible'), idx * 100);
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
-        revealEls.forEach(el => observer.observe(el));
-
-        // Value pillars - no counter animation needed
-
-        // Safety net: force hero elements visible after 2s
-        setTimeout(() => {
-            document.querySelectorAll('.hero-tagline, .hero-line, .hero-sub, .hero-actions, .hero-proof, .hero-phoenix-icon').forEach(el => {
-                el.style.opacity = '1';
-                el.style.transform = 'translateY(0)';
-            });
-        }, 2500);
-
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(a => {
-            a.addEventListener('click', (e) => {
-                e.preventDefault();
-                const t = document.querySelector(a.getAttribute('href'));
-                if (t) window.scrollTo({ top: t.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
-            });
-        });
-
-    });
-    </script>
     <script>
     // Audit form. Kept in its own script on purpose: the block above throws before it
     // finishes (it looks for the nav before site-chrome.js has injected it), and that

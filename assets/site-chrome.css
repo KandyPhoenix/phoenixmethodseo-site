@@ -22,6 +22,13 @@
 .nav-dropdown-menu a:hover { color: var(--fire-mid, #FF8C00); background: rgba(255,140,0,0.05); }
 .nav-cta { padding: 10px 24px !important; border: 1px solid #FF4D00 !important; border-radius: 4px; color: #FF8C00 !important; }
 .nav-cta:hover { background: #FF4D00 !important; color: #fff !important; }
+/* Two actions always in reach: Ask a Question (outline) and Get Started (solid). */
+.nav-cta { padding: 9px 16px !important; }
+.nav-cta-solid { background: #FF4D00; color: #fff !important; }
+.nav-cta-solid:hover { background: #FF8C00 !important; border-color: #FF8C00 !important; }
+@media (min-width: 901px) { .nav-links { gap: 18px; } .nav-links > li:has(> .nav-cta-ghost) { margin-left: 6px; } .nav-links > li:has(> .nav-cta-solid) { margin-left: -6px; } }
+@media (min-width: 901px) and (max-width: 1180px) { .nav-links { gap: 12px; } .nav-links a { font-size: 0.74rem; letter-spacing: 0.04em; } .nav-cta { padding: 8px 10px !important; } }
+@media (max-width: 900px) { .nav-links a.nav-cta { text-align: center; margin-top: 10px; border-bottom: 1px solid #FF4D00 !important; } }
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
 .nav-toggle span { width: 24px; height: 2px; background: #F0ECE6; border-radius: 2px; }
 

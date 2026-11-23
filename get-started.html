@@ -9,8 +9,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     <meta name="theme-color" content="#FF4D00">
-    <title>Get Started | Phoenix Method SEO</title>
-    <meta name="description" content="Start your SEO engagement with Phoenix Method. Choose your plan, provide your info, and we'll begin your initial audit.">
+    <title>Get Started: Pick a Plan and Pay Online | Phoenix Method</title>
+    <meta name="description" content="Pick a Phoenix Method plan or one-time setup, tell us your website address, and pay online. Month to month, no contract. Questions first? Ask us.">
     <meta name="robots" content="noindex, nofollow">
     <link rel="canonical" href="https://www.phoenixmethodseo.com/get-started.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,6 +42,8 @@
                                         
         /* Page layout */
         .page-content { padding: 140px 20px 80px; max-width: 780px; margin: 0 auto; }
+        .breadcrumbs { font-family: var(--font-accent); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); text-align: center; margin-bottom: 16px; }
+        .breadcrumbs a { color: var(--text-secondary); text-decoration: none; }
         .page-title { font-family: var(--font-display); font-weight: 900; font-size: clamp(1.8rem, 4vw, 2.8rem); text-align: center; margin-bottom: 12px; }
         .fire-text { background: linear-gradient(135deg, var(--fire-start), var(--fire-mid), var(--fire-end)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
         .page-subtitle { text-align: center; color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 60px; line-height: 1.7; max-width: 600px; margin-left: auto; margin-right: auto; }
@@ -153,23 +155,6 @@
             margin-right: 8px;
             vertical-align: middle;
         }
-        .plan-option.popular { position: relative; }
-        .plan-option.popular::before {
-            content: 'MOST POPULAR';
-            position: absolute;
-            top: -11px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: linear-gradient(135deg, var(--fire-start), var(--fire-mid));
-            color: #fff;
-            font-family: var(--font-accent);
-            font-size: 0.65rem;
-            font-weight: 600;
-            letter-spacing: 0.15em;
-            padding: 4px 14px;
-            border-radius: 20px;
-            white-space: nowrap;
-        }
         .plan-label {
             font-family: var(--font-accent);
             font-weight: 600;
@@ -180,14 +165,7 @@
             margin-bottom: 12px;
             margin-top: 24px;
         }
-        .next-steps {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 14px;
-            padding: 36px 40px;
-            margin-top: 48px;
-        }
-        .next-steps h3 {
+        .next-steps h2 {
             font-family: var(--font-display);
             font-weight: 700;
             font-size: 1.2rem;
@@ -279,13 +257,7 @@
             letter-spacing: 0.12em;
             text-transform: uppercase;
             color: var(--text-muted);
-            margin-bottom: 6px;
-        }
-        .optional-tagline {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
             margin-bottom: 24px;
-            font-style: italic;
         }
 
         .submit-btn {
@@ -308,6 +280,8 @@
         .submit-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(255, 77, 0, 0.3); }
         .submit-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: none; }
         .form-note { text-align: center; color: var(--text-muted); font-size: 0.8rem; margin-top: 20px; line-height: 1.6; }
+        .ask-line { text-align: center; color: var(--text-secondary); font-size: 0.95rem; margin-top: 20px; }
+        .ask-line a { color: var(--fire-mid); }
         .error-msg { color: var(--fire-start); font-size: 0.85rem; margin-top: 12px; display: none; text-align: center; font-weight: 500; }
 
         @media (max-width: 768px) {
@@ -318,7 +292,6 @@
             .plan-selector-monthly { grid-template-columns: 1fr; }
             .form-row { grid-template-columns: 1fr; }
             .intake-form { padding: 28px 20px; }
-            .next-steps { padding: 28px 20px; }
             .step-header { flex-direction: column; text-align: center; gap: 12px; }
         }
     </style>
@@ -331,22 +304,24 @@
       gtag('js', new Date());
       gtag('config', 'G-3RCCP637GV');
     </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.phoenixmethodseo.com/"},{"@type":"ListItem","position":2,"name":"Pricing","item":"https://www.phoenixmethodseo.com/small-business-seo-pricing/"},{"@type":"ListItem","position":3,"name":"Get Started","item":"https://www.phoenixmethodseo.com/get-started.html"}]}</script>
 <link rel="stylesheet" href="/assets/site-chrome.css">
 </head>
 <body>
     <div id="pm-nav"></div>
 
     <div class="page-content">
-        <h1 class="page-title">Let's <span class="fire-text">Get Started</span></h1>
-        <p class="page-subtitle">Two steps between you and search domination. Choose your weapon, tell us where to aim, and we'll handle the rest.</p>
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/small-business-seo-pricing/">Pricing</a> &rsaquo; <span>Get Started</span></nav>
+        <h1 class="page-title">Pick Your Plan and <span class="fire-text">Get Started</span></h1>
+        <p class="page-subtitle">Two steps. Pick a plan. Tell us where your site is. Then pay online.</p>
 
         <!-- ==================== STEP 1: CHOOSE YOUR PLAN ==================== -->
         <div class="step-section">
             <div class="step-header">
                 <div class="step-number">01</div>
                 <div class="step-info">
-                    <div class="step-title">Choose Your Plan</div>
-                    <div class="step-desc">Select the engagement level that fits your goals. Every plan includes your initial SEO audit.</div>
+                    <h2 class="step-title">Choose Your Plan</h2>
+                    <div class="step-desc">Pick the plan that fits your site. Every plan includes your initial SEO audit.</div>
                 </div>
             </div>
 
@@ -395,7 +370,7 @@
                         <li>Quarterly report</li>
                     </ul>
                 </div>
-                <div class="plan-option popular" data-plan="blaze" data-url="https://square.link/u/LDSg7Eo0" onclick="selectPlan(this)">
+                <div class="plan-option" data-plan="blaze" data-url="https://square.link/u/LDSg7Eo0" onclick="selectPlan(this)">
                     <input type="radio" name="plan" value="blaze">
                     <div class="plan-name">Blaze</div>
                     <div class="plan-price">$900/mo</div>
@@ -403,8 +378,8 @@
                     <ul class="plan-features">
                         <li>Everything in Spark</li>
                         <li>6 hrs site fixes & updates</li>
-                        <li>Competitor surveillance & analysis</li>
-                        <li>Client portal dashboard</li>
+                        <li>Competitor tracking</li>
+                        <li>Client portal</li>
                     </ul>
                 </div>
                 <div class="plan-option" data-plan="inferno" data-url="https://square.link/u/YipZDcIN" onclick="selectPlan(this)">
@@ -415,9 +390,9 @@
                     <ul class="plan-features">
                         <li>Everything in Blaze</li>
                         <li>12 hrs site fixes & updates</li>
-                        <li>Advanced schema & rich result domination</li>
-                        <li>Priority support & turnaround</li>
-                        <li>AI Overview conquest</li>
+                        <li>Rich-result schema</li>
+                        <li>Priority support</li>
+                        <li>Google AI answer work</li>
                     </ul>
                 </div>
             </div>
@@ -431,8 +406,8 @@
             <div class="step-header">
                 <div class="step-number">02</div>
                 <div class="step-info">
-                    <div class="step-title">Point Us at Your Target</div>
-                    <div class="step-desc">Give us your URL and we'll start the recon. Everything else is optional — but the more intel you share, the faster we strike.</div>
+                    <h2 class="step-title">Tell Us About Your Site</h2>
+                    <div class="step-desc">Required: name, email, website. Everything else is optional.</div>
                 </div>
             </div>
 
@@ -451,8 +426,8 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group">
-                        <label>Phone <span class="required">*</span></label>
-                        <input type="tel" id="clientPhone" name="phone" required placeholder="(555) 123-4567">
+                        <label>Phone</label>
+                        <input type="tel" id="clientPhone" name="phone" placeholder="(555) 123-4567">
                     </div>
                     <div class="form-group">
                         <label>Website URL <span class="required">*</span></label>
@@ -463,7 +438,6 @@
                 <div class="optional-divider"></div>
 
                 <p class="optional-label">Optional</p>
-                <p class="optional-tagline">The more we know before the first call, the more dangerous your audit becomes.</p>
 
                 <div class="form-row">
                     <div class="form-group">
@@ -517,6 +491,28 @@
                     </div>
                 </div>
 
+                <div class="optional-divider"></div>
+
+                <div class="next-steps">
+                    <h2>What Happens After You Submit</h2>
+                    <div class="next-step-item">
+                        <div class="next-step-num">1</div>
+                        <div class="next-step-text">You pay online on a secure checkout page.</div>
+                    </div>
+                    <div class="next-step-item">
+                        <div class="next-step-num">2</div>
+                        <div class="next-step-text">We email you to confirm and ask for the access we need.</div>
+                    </div>
+                    <div class="next-step-item">
+                        <div class="next-step-num">3</div>
+                        <div class="next-step-text">Week 1: we audit your site and record where you rank today.</div>
+                    </div>
+                    <div class="next-step-item">
+                        <div class="next-step-num">4</div>
+                        <div class="next-step-text">Blaze and Inferno clients get their client portal login. Spark clients get a report every quarter.</div>
+                    </div>
+                </div>
+
                 <p class="error-msg" id="errorMsg"></p>
 
                 <button type="button" class="submit-btn" id="submitBtn" onclick="handleSubmit()">
@@ -527,23 +523,7 @@
                     Your info is submitted securely to Phoenix Method.<br>
                     You'll be redirected to pay securely online.
                 </p>
-            </div>
-        </div>
-
-        <!-- ==================== WHAT HAPPENS NEXT ==================== -->
-        <div class="next-steps">
-            <h3>What Happens After You Submit</h3>
-            <div class="next-step-item">
-                <div class="next-step-num">1</div>
-                <div class="next-step-text"><strong>Secure online payment.</strong> You'll be redirected to complete payment. All transactions are encrypted.</div>
-            </div>
-            <div class="next-step-item">
-                <div class="next-step-num">2</div>
-                <div class="next-step-text"><strong>Your audit begins within 24 hours.</strong> We start analyzing your site immediately. No waiting weeks to get started.</div>
-            </div>
-            <div class="next-step-item">
-                <div class="next-step-num">3</div>
-                <div class="next-step-text"><strong>Portal + first report within 7 days.</strong> You'll get access to your personalized dashboard with your full SEO audit, rank tracking, and action plan.</div>
+                <p class="ask-line">Have a question first? <a href="/contact/">Ask a Question</a></p>
             </div>
         </div>
     </div>
@@ -580,11 +560,10 @@
 
         var name = document.getElementById('clientName').value.trim();
         var email = document.getElementById('clientEmail').value.trim();
-        var phone = document.getElementById('clientPhone').value.trim();
         var url = document.getElementById('clientUrl').value.trim();
 
-        if (!name || !email || !phone || !url) {
-            errorMsg.textContent = 'Please fill in all required fields (name, email, phone, website URL).';
+        if (!name || !email || !url) {
+            errorMsg.textContent = 'Please fill in all required fields (name, email, website URL).';
             errorMsg.style.display = 'block';
             return;
         }

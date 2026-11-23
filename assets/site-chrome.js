@@ -13,51 +13,44 @@
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
+        <li><a href="/website-management/">Website Management</a></li>
         <li class="nav-dropdown">
-          <a href="/small-business-seo/">Services</a>
+          <a href="/small-business-seo/">SEO</a>
           <ul class="nav-dropdown-menu">
             <li><a href="/small-business-seo/"><strong>Small Business SEO</strong></a></li>
             <li><a href="/services/local-seo/">Local SEO</a></li>
-            <li><a href="/services/technical-seo/">Technical SEO</a></li>
-            <li><a href="/services/content-seo/">Content SEO</a></li>
-            <li><a href="/services/gbp-optimization/">GBP Optimization</a></li>
-            <li><a href="/services/ai-overview-optimization/">AI Overview Optimization</a></li>
+            <li><a href="/services/gbp-optimization/">Google Business Profile</a></li>
+            <li><a href="/services/technical-seo/">Site Fixes</a></li>
+            <li><a href="/services/content-seo/">Blog Posts and Pages</a></li>
+            <li><a href="/services/ai-overview-optimization/">Google AI Answers</a></li>
           </ul>
         </li>
         <li class="nav-dropdown">
-          <a href="/industries/">Industries</a>
+          <a href="/industries/">Who We Help</a>
           <ul class="nav-dropdown-menu">
-            <li><a href="/industries/"><strong>All Industries</strong></a></li>
-            <li><a href="/industries/healthcare-seo/">Healthcare SEO</a></li>
-            <li><a href="/industries/mental-health-seo/">Mental Health SEO</a></li>
-            <li><a href="/industries/dental-seo/">Dental SEO</a></li>
-            <li><a href="/industries/agriculture-seo/">Agriculture SEO</a></li>
-            <li><a href="/industries/oil-gas-seo/">Oil &amp; Gas SEO</a></li>
+            <li><a href="/industries/"><strong>Everyone We Help</strong></a></li>
+            <li><a href="/industries/healthcare-seo/">Healthcare</a></li>
+            <li><a href="/industries/mental-health-seo/">Mental Health and Therapy</a></li>
+            <li><a href="/industries/dental-seo/">Dental</a></li>
+            <li><a href="/industries/agriculture-seo/">Agriculture</a></li>
+            <li><a href="/industries/oil-gas-seo/">Oil &amp; Gas</a></li>
           </ul>
         </li>
-        <li><a href="/about/">About</a></li>
         <li class="nav-dropdown dropdown-right">
-          <a href="/small-business-seo-pricing/">Investment</a>
+          <a href="/small-business-seo-pricing/">Pricing</a>
           <ul class="nav-dropdown-menu">
-            <li><a href="/small-business-seo-pricing/"><strong>Pricing Overview</strong></a></li>
-            <li><a href="/plans/spark/">Spark — $500/mo</a></li>
-            <li><a href="/plans/blaze/">Blaze — $900/mo</a></li>
-            <li><a href="/plans/inferno/">Inferno — $1,500/mo</a></li>
-          </ul>
-        </li>
-        <li class="nav-dropdown">
-          <a href="/order.html">Shop</a>
-          <ul class="nav-dropdown-menu">
-            <li><a href="/order.html"><strong>All Offerings</strong></a></li>
-            <li><a href="/order.html#content-packs">Content Packs</a></li>
-            <li><a href="/order.html#fixed-price">Fixed-Price Services</a></li>
-            <li><a href="/order.html#scoped">Scoped Services</a></li>
+            <li><a href="/small-business-seo-pricing/"><strong>Plans and Prices</strong></a></li>
+            <li><a href="/small-business-seo-pricing/#plans">Monthly Plans</a></li>
+            <li><a href="/small-business-seo-pricing/#setups">One-Time Setups</a></li>
+            <li><a href="/order.html">One-Off Services</a></li>
+            <li><a href="/website-updates/">Website Updates</a></li>
+            <li><a href="/social-media-posting/">Social Media Posting</a></li>
           </ul>
         </li>
         <li><a href="/blog/">Blog</a></li>
-        <li><a href="/#faq">FAQ</a></li>
-        <li><a href="/phoenix-ai/">Phoenix AI</a></li>
-        <li><a href="/contact/" class="nav-cta">Contact</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/" class="nav-cta nav-cta-ghost">Ask a Question</a></li>
+        <li><a href="/get-started.html" class="nav-cta nav-cta-solid">Get Started</a></li>
       </ul>
     </div>
   </nav>`;
@@ -90,36 +83,38 @@
         </div>
         <div class="footer-links">
           <div class="footer-col">
-            <h4>Services</h4>
+            <h4>What We Do</h4>
+            <a href="/website-management/">Website Management</a>
             <a href="/small-business-seo/">Small Business SEO</a>
             <a href="/services/local-seo/">Local SEO</a>
-            <a href="/services/technical-seo/">Technical SEO</a>
-            <a href="/services/content-seo/">Content SEO</a>
-            <a href="/services/gbp-optimization/">GBP Optimization</a>
-            <a href="/services/ai-overview-optimization/">AI Overview Optimization</a>
+            <a href="/services/gbp-optimization/">Google Business Profile</a>
+            <a href="/services/technical-seo/">Site Fixes</a>
+            <a href="/services/content-seo/">Blog Posts and Pages</a>
+            <a href="/services/ai-overview-optimization/">Google AI Answers</a>
           </div>
           <div class="footer-col">
-            <h4>Industries</h4>
-            <a href="/industries/">All Industries</a>
-            <a href="/industries/healthcare-seo/">Healthcare SEO</a>
-            <a href="/industries/mental-health-seo/">Mental Health SEO</a>
-            <a href="/industries/dental-seo/">Dental SEO</a>
-            <a href="/industries/agriculture-seo/">Agriculture SEO</a>
-            <a href="/industries/oil-gas-seo/">Oil &amp; Gas SEO</a>
+            <h4>Who We Help</h4>
+            <a href="/industries/">Everyone We Help</a>
+            <a href="/industries/healthcare-seo/">Healthcare</a>
+            <a href="/industries/mental-health-seo/">Mental Health and Therapy</a>
+            <a href="/industries/dental-seo/">Dental</a>
+            <a href="/industries/agriculture-seo/">Agriculture</a>
+            <a href="/industries/oil-gas-seo/">Oil &amp; Gas</a>
           </div>
           <div class="footer-col">
             <h4>Company</h4>
             <a href="/about/">About</a>
-            <a href="/#process">Our Process</a>
             <a href="/small-business-seo-pricing/">Pricing</a>
-            <a href="/order.html">Shop</a>
-            <a href="/#faq">FAQ</a>
+            <a href="/order.html">One-Off Services</a>
+            <a href="/faq/">FAQ</a>
             <a href="/blog/">Blog</a>
+            <a href="/phoenix-ai/">Phoenix AI</a>
           </div>
           <div class="footer-col">
             <h4>Contact</h4>
+            <a href="/get-started.html">Get Started &rarr;</a>
+            <a href="/contact/">Ask a Question &rarr;</a>
             <a href="mailto:hello@phoenixmethodseo.com">Quick Email &rarr;</a>
-            <a href="/contact/">Contact Us &rarr;</a>
             <a href="/services/seo-development/" style="align-self: flex-start; margin-top: 8px;">Custom Project &rarr;</a>
             <a href="/portal/" style="align-self: flex-start; margin-top: 8px;">Client Portal &rarr;</a>
           </div>
