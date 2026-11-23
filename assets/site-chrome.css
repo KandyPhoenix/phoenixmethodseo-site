@@ -59,6 +59,13 @@
        full-screen menu panel below, which shrank the open menu to one visible link.
        No blur at phone width; solid background instead. Do not add it back here. */
     .nav { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(7,7,13,0.98); }
+    /* PM-380: the footer columns sat in one row that did not wrap, so the page laid out
+       wider than a phone screen and the menu button ended up off the right edge.
+       Stack the footer and wrap the link columns two per row. */
+    .footer-inner { flex-direction: column; gap: 28px; }
+    .footer-links { flex-wrap: wrap; gap: 28px 16px; }
+    .footer-col { flex: 1 1 40%; min-width: 0; }
+    .footer-col a { overflow-wrap: anywhere; }
     .nav-links { display: none; flex-direction: column; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(7,7,13,0.98); padding: 130px 40px 40px; gap: 8px; z-index: 999; overflow-y: auto; }
     .nav-links.open { display: flex; }
     .nav-links > li { width: 100%; }
