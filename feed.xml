@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phoenix Method — SEO Blog</title>
+    <link>https://phoenixmethodseo.com</link>
+    <description>SEO strategies, algorithm updates, and digital marketing insights from Phoenix Method.</description>
+    <language>en-us</language>
+    <copyright>Phoenix Method</copyright>
+    <atom:link href="https://phoenixmethodseo.com/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Social Media for Private Practice: What Helps You Get Found, and What Is Noise</title>
+      <link>https://www.phoenixmethodseo.com/blog/social-media-for-private-practice.html</link>
+      <guid>https://www.phoenixmethodseo.com/blog/social-media-for-private-practice.html</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Social media for private practice: what posting does and does not do for your Google rankings, where to post, and the privacy lines every practice must hold.</description>
+    </item>
+
+    <item>
+      <title>Behavioral Health SEO for Group Practices and Clinics</title>
+      <link>https://www.phoenixmethodseo.com/blog/behavioral-health-seo.html</link>
+      <guid>https://www.phoenixmethodseo.com/blog/behavioral-health-seo.html</guid>
+      <pubDate>Sun, 01 Nov 2026 12:00:00 +0000</pubDate>
+      <description>Behavioral health SEO for group practices and clinics: the clinician pages, site structure, and Search Console checks that get every provider found.</description>
+    </item>
+
+    <item>
+      <title>Therapist Website Management: Who Should Run Your Practice Website?</title>
+      <link>https://www.phoenixmethodseo.com/blog/therapist-website-management.html</link>
+      <guid>https://www.phoenixmethodseo.com/blog/therapist-website-management.html</guid>
+      <pubDate>Fri, 16 Oct 2026 12:00:00 +0000</pubDate>
+      <description>Therapist website management: compare the four ways to run a practice site, six questions to ask before hiring, and a checklist to take back your logins.</description>
+    </item>
+
+    <item>
+      <title>SEO for Psychiatrists: How a Private Practice Gets Found on Google</title>
+      <link>https://www.phoenixmethodseo.com/blog/seo-for-psychiatrists.html</link>
+      <guid>https://www.phoenixmethodseo.com/blog/seo-for-psychiatrists.html</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+      <description>SEO for psychiatrists in private practice: the pages, credentials, schema, and Google Business Profile fixes that get a psychiatric practice found on Google.</description>
+    </item>
+
+    <item>
+      <title>AI Overviews and Your Rankings: How to Optimize for Google's New Search</title>
+      <link>https://phoenixmethodseo.com/ai-overviews-seo-optimization-guide.html</link>
+      <guid>https://phoenixmethodseo.com/ai-overviews-seo-optimization-guide.html</guid>
+      <pubDate>Sun, 28 Mar 2026 12:00:00 +0000</pubDate>
+      <description>Google's AI Overviews are reshaping search. Learn exactly how to structure content, earn citations, and protect your rankings as AI-generated summaries dominate the top of the SERP.</description>
+    </item>
+
+    <item>
+      <title>Google's March 2026 Core Update: What Changed and What to Do</title>
+      <link>https://phoenixmethodseo.com/google-core-update-march-2026-seo-guide.html</link>
+      <guid>https://phoenixmethodseo.com/google-core-update-march-2026-seo-guide.html</guid>
+      <pubDate>Thu, 26 Mar 2026 12:00:00 +0000</pubDate>
+      <description>The March 2026 Core Update hit 55% of sites. E-E-A-T tightened for healthcare. AI content under scrutiny. Here's what changed and your 6-step response plan from Phoenix Method.</description>
+    </item>
+
+  </channel>
+</rss>
