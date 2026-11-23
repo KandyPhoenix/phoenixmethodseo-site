@@ -110,7 +110,6 @@
             <a href="/order.html">One-Off Services</a>
             <a href="/faq/">FAQ</a>
             <a href="/blog/">Blog</a>
-            <a href="/phoenix-ai/">Phoenix AI</a>
           </div>
           <div class="footer-col">
             <h4>Contact</h4>
