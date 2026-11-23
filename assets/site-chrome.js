@@ -23,6 +23,7 @@
             <li><a href="/services/technical-seo/">Site Fixes</a></li>
             <li><a href="/services/content-seo/">Blog Posts and Pages</a></li>
             <li><a href="/services/ai-overview-optimization/">Google AI Answers</a></li>
+            <li><a href="/the-woodlands-seo/">The Woodlands SEO</a></li>
           </ul>
         </li>
         <li class="nav-dropdown">
@@ -91,6 +92,7 @@
             <a href="/services/technical-seo/">Site Fixes</a>
             <a href="/services/content-seo/">Blog Posts and Pages</a>
             <a href="/services/ai-overview-optimization/">Google AI Answers</a>
+            <a href="/the-woodlands-seo/">The Woodlands SEO</a>
           </div>
           <div class="footer-col">
             <h4>Who We Help</h4>
