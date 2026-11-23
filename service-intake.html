@@ -331,6 +331,54 @@
                     { name: 'post_topic', label: 'Topics you want covered (or say "pick for me")', type: 'textarea', hint: 'List topics, or tell us your business focus and we\'ll build a 20-post calendar.' },
                     { name: 'brand_voice', label: 'Brand voice notes', type: 'textarea' }
                 ]
+            },
+            'gbp-management': {
+                label: 'Google Business Profile Management',
+                fields: [
+                    { name: 'gbp_url', label: 'Your Google Business Profile', type: 'text', required: true, hint: 'Paste the link to your profile. No link handy? Type your business name and city.' },
+                    { name: 'post_topic', label: 'What should the first posts be about?', type: 'textarea', hint: 'Offers, news, events, or say "pick for me".' },
+                    { name: 'brand_voice', label: 'How should the posts sound?', type: 'textarea', hint: 'Friendly? Formal? Any words you always use or never use?' }
+                ]
+            },
+            'gbp-setup': {
+                label: 'Google Business Profile Setup (New Profile)',
+                fields: [
+                    { name: 'nap', label: 'Business name, phone and the area you serve', type: 'textarea', required: true, hint: 'Exactly as you want it shown. If you work from home, tell us and we set the profile up with a service area and no street address shown.' },
+                    { name: 'business_category', label: 'What kind of business is it?', type: 'text', required: true, hint: 'e.g., "Plumber", "Mental Health Clinic", "Auto Repair"' },
+                    { name: 'hours_of_operation', label: 'Hours of operation', type: 'textarea', hint: 'e.g., Mon-Fri 9am-5pm, closed weekends' }
+                ]
+            },
+            'social-plan': {
+                label: 'Social Media Posting Plan',
+                fields: [
+                    { name: 'platform', label: 'Where should we post?', type: 'select', required: true, options: ['Facebook', 'Instagram', 'LinkedIn', 'A mix of these'] },
+                    { name: 'post_topic', label: 'What should the posts be about?', type: 'textarea', hint: 'Services, offers, news, or say "pick for me".' },
+                    { name: 'brand_voice', label: 'How should the posts sound?', type: 'textarea', hint: 'Friendly? Formal? Any words you always use or never use?' }
+                ]
+            },
+            'linkedin-plan': {
+                label: 'LinkedIn Posting Plan',
+                fields: [
+                    { name: 'linkedin_url', label: 'Your LinkedIn page or profile', type: 'text', required: true, hint: 'Paste the link, or type the name it is under.' },
+                    { name: 'post_topic', label: 'What should the posts be about?', type: 'textarea', hint: 'Services, what you know, news, or say "pick for me".' },
+                    { name: 'brand_voice', label: 'How should the posts sound?', type: 'textarea' }
+                ]
+            },
+            'landing-page': {
+                label: 'New Service or Landing Page',
+                fields: [
+                    { name: 'domain', label: 'Site URL', type: 'url', required: true, placeholder: 'https://yoursite.com' },
+                    { name: 'site_platform', label: 'Site platform', type: 'select', required: true, options: ['WordPress', 'Squarespace', 'Wix', 'Shopify', 'GoDaddy', 'Webflow', 'Custom HTML', 'Other'] },
+                    { name: 'project_details', label: 'What is the page for?', type: 'textarea', required: true, hint: 'The service or offer, who it is for, and anything the page has to say.' }
+                ]
+            },
+            'competitor-analysis': {
+                label: 'Competitor Analysis Report',
+                fields: [
+                    { name: 'domain', label: 'Your site URL', type: 'url', required: true, placeholder: 'https://yoursite.com' },
+                    { name: 'competitors', label: 'Competitors to look at', type: 'textarea', required: true, hint: 'List up to 3, with their website addresses if you have them.' },
+                    { name: 'priority_concerns', label: 'What do you most want to know?', type: 'textarea' }
+                ]
             }
         };
 
