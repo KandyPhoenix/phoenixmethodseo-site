@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
     <meta name="theme-color" content="#07070D">
     <title>Contact Phoenix Method — SEO Quotes, Questions, Inquiries</title>
-    <meta name="description" content="Contact Phoenix Method with a question about SEO, website management, pricing or your project. Send the form or email us. We reply within 48 hours.">
+    <meta name="description" content="Contact Phoenix Method with a question about SEO, website management, pricing or your project. Send the form or email us, and we reply by email.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.phoenixmethodseo.com/contact/">
     <link rel="stylesheet" href="/assets/site-chrome.css">
@@ -246,7 +246,7 @@
             <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <span>Contact</span></nav>
             <span class="eyebrow">Phoenix Method</span>
             <h1>Get In Touch</h1>
-            <p>Questions about SEO services, your project, or working together — we're here.</p>
+            <p>Questions about SEO services, your project, or pricing? We're here.</p>
         </div>
     </div>
 
@@ -256,7 +256,7 @@
 
                 <div class="contact-info">
                     <h2>Let's Talk</h2>
-                    <p>Whether you're exploring SEO for the first time or looking to level up an existing strategy, reach out. We'll respond within 48 hours.</p>
+                    <p>Whether you're exploring SEO for the first time or looking to level up an existing strategy, reach out. We reply by email.</p>
 
                     <div class="contact-item">
                         <span class="contact-item-label">Email</span>
@@ -265,7 +265,7 @@
 
                     <div class="contact-item">
                         <span class="contact-item-label">Sign Up for Blog Updates</span>
-                        <a href="mailto:updates@phoenixmethodseo.com?subject=Blog%20Updates%20Request&body=Hi%20Kandy%2C%20I%27d%20like%20to%20receive%20updates%20from%20the%20Phoenix%20Method%20blog.">updates@phoenixmethodseo.com</a>
+                        <a href="mailto:updates@phoenixmethodseo.com?subject=Blog%20Updates%20Request&body=Hi%2C%20I%27d%20like%20to%20receive%20updates%20from%20the%20Phoenix%20Method%20blog.">updates@phoenixmethodseo.com</a>
                         <span>Email this address and we'll send you new SEO posts as they publish.</span>
                     </div>
 
@@ -274,8 +274,13 @@
                         <a href="/#contact">Request your free audit &rarr;</a>
                     </div>
 
+                    <div class="contact-item">
+                        <span class="contact-item-label">Ready to Start</span>
+                        <a href="/get-started.html">Pick a plan and get started &rarr;</a>
+                    </div>
+
                     <div class="response-note">
-                        We respond within 48 hours. For urgent matters, include "URGENT" in your subject line.
+                        We reply by email. For urgent matters, include "URGENT" in your subject line.
                     </div>
                 </div>
 
@@ -339,7 +344,7 @@
             try {
                 await window.PMForms.send('contact', Object.fromEntries(new FormData(form)));
                 form.reset();
-                status.textContent = 'Message sent. We reply within 48 hours.';
+                status.textContent = 'Message sent. We reply by email.';
                 status.style.color = '#22c55e';
             } catch (err) {
                 status.textContent = 'That did not send. Please email hello@phoenixmethodseo.com directly.';
