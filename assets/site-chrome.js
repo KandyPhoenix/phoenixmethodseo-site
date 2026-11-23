@@ -56,12 +56,14 @@
     </div>
   </nav>`;
 
-  /* ---------- SITE-WIDE NOTICE (PM-369) ----------
-     Shown above the nav on every page through NOTICE_UNTIL (inclusive), then it
+  /* ---------- NOTICE (PM-369, PM-394) ----------
+     Shown above the nav on the home page and the contact page only (Kandy, 2026-11-23),
+     through NOTICE_UNTIL (inclusive), then it
      stops showing by itself. To take it down sooner, set NOTICE_UNTIL to a past date.
      The wording is Kandy's own (2026-11-22), plus the "If you sent us a form" line she
      asked to keep. Change it only on her say-so. */
   var NOTICE_UNTIL = '2026-12-31';
+  var NOTICE_PAGES = ['/', '/contact/'];
   var NOTICE_HTML = `<div class="pm-notice" id="pmNotice" role="region" aria-label="Important notice">
       <div class="pm-notice-inner">
         <div class="pm-notice-text">
@@ -141,6 +143,9 @@
     (function () {
       var navEl2 = document.getElementById('nav');
       if (!navEl2) return;
+      var here = window.location.pathname.replace(/index\.html$/, '');
+      if (here.slice(-1) !== '/') here += '/';
+      if (NOTICE_PAGES.indexOf(here) === -1) return;
       var hidden = false;
       try { hidden = window.sessionStorage.getItem('pmNoticeHidden') === '1'; } catch (e) { /* storage blocked */ }
       if (hidden || new Date().toISOString().slice(0, 10) > NOTICE_UNTIL) return;
