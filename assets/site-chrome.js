@@ -68,7 +68,8 @@
       <div class="pm-notice-inner">
         <div class="pm-notice-text">
           <strong class="pm-notice-title">Important notice about our contact forms</strong>
-          <span>We have just been notified that Microsoft has been denying contact form submissions since August. We are in the process of fixing the issue. If you sent us a form or an email and never heard back, we did not ignore you. We never saw it. If you submitted a contact form or email to us since August, please resubmit or contact us at your earliest convenience and note this issue. Our team will work diligently to get you taken care of immediately.</span>
+          <button type="button" class="pm-notice-more" id="pmNoticeMore" aria-expanded="false" aria-controls="pmNoticeBody">Read more</button>
+          <span class="pm-notice-body" id="pmNoticeBody">We have just been notified that Microsoft has been denying contact form submissions since August. We are in the process of fixing the issue. If you sent us a form or an email and never heard back, we did not ignore you. We never saw it. If you submitted a contact form or email to us since August, please resubmit or contact us at your earliest convenience and note this issue. Our team will work diligently to get you taken care of immediately.</span>
         </div>
         <div class="pm-notice-actions">
           <a class="pm-notice-btn" href="/contact/">Send It Again</a>
@@ -166,6 +167,18 @@
       fit();
       window.addEventListener('resize', fit);
       window.addEventListener('load', fit);
+
+      // PM-401: on a phone the notice shows its title and a "Read more" button, so it
+      // does not fill the screen. The button only shows at phone width (site-chrome.css).
+      var more = document.getElementById('pmNoticeMore');
+      if (more) {
+        more.addEventListener('click', function () {
+          var open = notice.classList.toggle('is-open');
+          more.setAttribute('aria-expanded', open ? 'true' : 'false');
+          more.textContent = open ? 'Show less' : 'Read more';
+          fit();
+        });
+      }
 
       document.getElementById('pmNoticeClose').addEventListener('click', function () {
         window.removeEventListener('resize', fit);
