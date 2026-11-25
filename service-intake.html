@@ -225,7 +225,7 @@
                     <div class="form-section-title">Anything Else</div>
                     <div class="form-row">
                         <label>Additional Notes</label>
-                        <textarea name="additional_notes" placeholder="Deadlines, preferences, access credentials (we'll email securely for passwords), or anything else we should know."></textarea>
+                        <textarea name="additional_notes" placeholder="We will ask you to add us as a user. Please do not send passwords."></textarea>
                     </div>
                 </div>
 
@@ -244,43 +244,12 @@
 
     <script>
         const SERVICE_MAP = {
-            'gbp-post': {
-                label: 'GBP Post',
-                fields: [
-                    { name: 'gbp_url', label: 'Google Business Profile URL', type: 'url', required: true, hint: 'Paste the link to your GBP (goo.gl/maps/... or business.google.com/...)' },
-                    { name: 'post_topic', label: 'Post topic / offer / update', type: 'textarea', required: true, hint: 'What should this post be about? Include any dates, prices, or specific wording you want.' },
-                    { name: 'cta_preference', label: 'Call-to-action preference', type: 'select', options: ['Learn More', 'Call Now', 'Book', 'Order Online', 'Sign Up', 'Buy', 'None'] }
-                ]
-            },
-            'social-post': {
-                label: 'GBP Post (Extra)',
-                fields: [
-                    { name: 'gbp_url', label: 'Google Business Profile URL', type: 'url', required: true, hint: 'Paste the link to your GBP (goo.gl/maps/... or business.google.com/...)' },
-                    { name: 'post_topic', label: 'Post topic / offer / update', type: 'textarea', required: true, hint: 'What should this post be about? Include any dates, prices, or specific wording you want.' },
-                    { name: 'brand_voice', label: 'Brand voice notes', type: 'textarea', hint: 'Formal? Playful? Any words/phrases you use a lot or always avoid?' },
-                    { name: 'cta_preference', label: 'Call-to-action preference', type: 'select', options: ['Learn More', 'Call Now', 'Book', 'Order Online', 'Sign Up', 'Buy', 'None'] }
-                ]
-            },
             'citation': {
                 label: 'Citation Building',
                 fields: [
                     { name: 'nap', label: 'Exact NAP (Name, Address, Phone)', type: 'textarea', required: true, hint: 'Paste EXACTLY as it should appear everywhere. One character off = broken consistency.' },
                     { name: 'business_category', label: 'Primary business category', type: 'text', required: true, hint: 'e.g., "Mental Health Clinic", "Plumber", "Auto Repair Shop"' },
                     { name: 'hours_of_operation', label: 'Hours of operation', type: 'textarea', hint: 'e.g., Mon-Fri 9am-5pm, closed weekends' }
-                ]
-            },
-            'review-templates': {
-                label: 'Review Response Templates',
-                fields: [
-                    { name: 'brand_voice', label: 'Brand voice / tone', type: 'textarea', required: true, hint: 'How do you want to sound? Warm? Professional? Casual? Give us a feel.' },
-                    { name: 'project_details', label: 'Sample of how you currently respond (optional)', type: 'textarea', hint: 'Paste a recent response or two so we can match your existing voice.' }
-                ]
-            },
-            'backlink-audit': {
-                label: 'Backlink Audit',
-                fields: [
-                    { name: 'domain', label: 'Domain to audit', type: 'url', required: true, placeholder: 'https://yoursite.com', hint: 'We use the Links report in your Google Search Console. We will email you how to give us access.' },
-                    { name: 'priority_concerns', label: 'Any specific concerns?', type: 'textarea', hint: 'Worried about spammy links? A recent ranking drop? Let us know what to focus on.' }
                 ]
             },
             'quick-audit': {
@@ -297,38 +266,6 @@
                     { name: 'domain', label: 'Site URL', type: 'url', required: true, placeholder: 'https://yoursite.com' },
                     { name: 'site_platform', label: 'Site platform', type: 'select', required: true, options: ['WordPress', 'Squarespace', 'Wix', 'Shopify', 'Webflow', 'Custom HTML', 'Other'] },
                     { name: 'tracking_goals', label: 'What do you want to track?', type: 'textarea', required: true, hint: 'Form submissions? Phone clicks? Purchases? Tell us what counts as a win for your business.' }
-                ]
-            },
-            'keyword-research': {
-                label: 'Keyword Research Report',
-                fields: [
-                    { name: 'target_services', label: 'Services to target', type: 'textarea', required: true, hint: 'What services/products do you want to rank for? List the main ones.' },
-                    { name: 'service_area', label: 'Service area (city/region)', type: 'text', required: true, hint: 'e.g., "Red Bluff, CA" or "Northern California"' },
-                    { name: 'competitors', label: 'Top 3 competitors', type: 'textarea', hint: 'Paste their URLs — we\'ll find the keywords they\'re winning and you\'re not.' }
-                ]
-            },
-            'starter-pack': {
-                label: 'Starter Pack — 5 Posts',
-                fields: [
-                    { name: 'platform', label: 'Platforms to post on', type: 'select', required: true, options: ['GBP only', 'Facebook', 'Instagram', 'LinkedIn', 'Mix — any/all'] },
-                    { name: 'post_topic', label: 'Topics you want covered (or say "pick for me")', type: 'textarea', hint: 'List 5 topics, or tell us your business focus and we\'ll pick.' },
-                    { name: 'brand_voice', label: 'Brand voice notes', type: 'textarea' }
-                ]
-            },
-            'growth-pack': {
-                label: 'Growth Pack — 10 Posts',
-                fields: [
-                    { name: 'platform', label: 'Platforms to post on', type: 'select', required: true, options: ['GBP only', 'Facebook', 'Instagram', 'LinkedIn', 'Mix — any/all'] },
-                    { name: 'post_topic', label: 'Topics you want covered (or say "pick for me")', type: 'textarea', hint: 'List 10 topics, or tell us your business focus and we\'ll pick.' },
-                    { name: 'brand_voice', label: 'Brand voice notes', type: 'textarea' }
-                ]
-            },
-            'authority-pack': {
-                label: 'Authority Pack — 20 Posts',
-                fields: [
-                    { name: 'platform', label: 'Platforms to post on', type: 'select', required: true, options: ['GBP only', 'Facebook', 'Instagram', 'LinkedIn', 'Mix — any/all'] },
-                    { name: 'post_topic', label: 'Topics you want covered (or say "pick for me")', type: 'textarea', hint: 'List topics, or tell us your business focus and we\'ll build a 20-post calendar.' },
-                    { name: 'brand_voice', label: 'Brand voice notes', type: 'textarea' }
                 ]
             },
             'gbp-management': {
@@ -369,14 +306,6 @@
                     { name: 'domain', label: 'Site URL', type: 'url', required: true, placeholder: 'https://yoursite.com' },
                     { name: 'site_platform', label: 'Site platform', type: 'select', required: true, options: ['WordPress', 'Squarespace', 'Wix', 'Shopify', 'GoDaddy', 'Webflow', 'Custom HTML', 'Other'] },
                     { name: 'project_details', label: 'What is the page for?', type: 'textarea', required: true, hint: 'The service or offer, who it is for, and anything the page has to say.' }
-                ]
-            },
-            'competitor-analysis': {
-                label: 'Competitor Analysis Report',
-                fields: [
-                    { name: 'domain', label: 'Your site URL', type: 'url', required: true, placeholder: 'https://yoursite.com' },
-                    { name: 'competitors', label: 'Competitors to look at', type: 'textarea', required: true, hint: 'List up to 3, with their website addresses if you have them.' },
-                    { name: 'priority_concerns', label: 'What do you most want to know?', type: 'textarea' }
                 ]
             }
         };
