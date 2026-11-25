@@ -27,9 +27,9 @@
           </ul>
         </li>
         <li class="nav-dropdown">
-          <a href="/industries/">Who We Help</a>
+          <a href="/industries/">Industries</a>
           <ul class="nav-dropdown-menu">
-            <li><a href="/industries/"><strong>Everyone We Help</strong></a></li>
+            <li><a href="/industries/"><strong>All Industries</strong></a></li>
             <li><a href="/industries/healthcare-seo/">Healthcare</a></li>
             <li><a href="/industries/mental-health-seo/">Mental Health and Therapy</a></li>
             <li><a href="/industries/dental-seo/">Dental</a></li>
@@ -98,8 +98,8 @@
             <a href="/the-woodlands-seo/">The Woodlands SEO</a>
           </div>
           <div class="footer-col">
-            <h4>Who We Help</h4>
-            <a href="/industries/">Everyone We Help</a>
+            <h4>Industries</h4>
+            <a href="/industries/">All Industries</a>
             <a href="/industries/healthcare-seo/">Healthcare</a>
             <a href="/industries/mental-health-seo/">Mental Health and Therapy</a>
             <a href="/industries/dental-seo/">Dental</a>
