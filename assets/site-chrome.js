@@ -83,7 +83,7 @@
     <div class="container">
       <div class="footer-inner">
         <div class="footer-brand">
-          <p class="footer-tagline">Data-driven SEO &amp; SEM<br>consulting.<br>Your rankings. Our fire.</p>
+          <p class="footer-tagline">Data-driven SEO &amp;<br>website management.<br>Your rankings. Our fire.</p>
         </div>
         <div class="footer-links">
           <div class="footer-col">
