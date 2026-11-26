@@ -355,7 +355,7 @@
                 <li><strong>Ghost clinicians.</strong> Someone left your practice a year ago. Their bio is still live, still indexed, still pulling searches for their name. Those callers reach your front desk and hear they&rsquo;re gone.</li>
                 <li><strong>The missing new hire.</strong> Your newest clinician has an open caseload and no page, because the page was &ldquo;going to get done.&rdquo;</li>
                 <li><strong>A list instead of pages.</strong> Anxiety, trauma, ADHD, grief, couples, and eating disorders in one bulleted list, with nothing behind any of them. A bullet point is not a page.</li>
-                <li><strong>Copy-and-paste locations.</strong> Two offices, two location pages, same paragraph with the city swapped. <a href="https://developers.google.com/search/docs/crawling-indexing/canonicalization" target="_blank" rel="noopener">Google&rsquo;s own guidance</a> is that when it finds pages whose primary content is very similar, it clusters them together and chooses one of them as the canonical. That leaves the choice between your two office pages to Google, not to you.</li>
+                <li><strong>Copy-and-paste locations.</strong> Two offices, two location pages, same paragraph with the city swapped. When Google finds pages whose primary content is very similar, it <a href="https://developers.google.com/search/docs/crawling-indexing/canonicalization" target="_blank" rel="noopener">clusters them together and chooses one of them as the canonical</a>. That leaves the choice between your two office pages to Google, not to you.</li>
                 <li><strong>One insurance list for everybody.</strong> Panels are listed for the practice, but clinicians can be credentialed differently. A patient can pick a clinician, call, and learn that person is out of network.</li>
             </ul>
 
@@ -376,7 +376,7 @@
             <h3>3. A page for every location and every telehealth state</h3>
             <p>Each office gets its own address, hours, and clinicians. Each state you serve by video gets a page naming the clinicians licensed in it. Different facts make different pages, and that is what keeps them from reading as duplicates.</p>
 
-            <p>Then wire it together. The EMDR page links to the three clinicians who do EMDR. Each of them links back to EMDR, to their office, and to their telehealth states. A patient can come in through any door and reach a bookable person in two clicks. The wiring has a second use. <a href="https://developers.google.com/search/docs/crawling-indexing/links-crawlable" target="_blank" rel="noopener">Google&rsquo;s documentation on links</a> says Google uses links to find new pages to crawl and as a signal when determining the relevancy of pages.</p>
+            <p>Then wire it together. The EMDR page links to the three clinicians who do EMDR. Each of them links back to EMDR, to their office, and to their telehealth states. A patient can come in through any door and reach a bookable person in two clicks. The wiring has a second use. Google <a href="https://developers.google.com/search/docs/crawling-indexing/links-crawlable" target="_blank" rel="noopener">uses links to find new pages to crawl</a> and as a signal when determining the relevancy of pages.</p>
 
             <p>Underneath, add MedicalClinic schema with each location, and keep the practice name, address, and phone identical everywhere they appear.</p>
 
@@ -384,7 +384,7 @@
 
             <p>Building the grid is the easy part. Keeping it true is the job.</p>
 
-            <p><strong>When a clinician leaves:</strong> don&rsquo;t just delete the page. A deleted page returns a 404, and <a href="https://developers.google.com/crawling/docs/troubleshooting/http-status-codes" target="_blank" rel="noopener">Google&rsquo;s documentation on status codes</a> is plain about what happens next: URLs that are already indexed and return a 4xx status code are removed from the index. Take the clinician off every concern, location, and telehealth page the same day, then redirect their URL to the specialty page that fits their work best. If they had their own Google Business Profile listing at your address, settle what happens to it before their last day.</p>
+            <p><strong>When a clinician leaves:</strong> don&rsquo;t just delete the page. A deleted page returns a 404, and <a href="https://developers.google.com/crawling/docs/troubleshooting/http-status-codes" target="_blank" rel="noopener">indexed URLs that return a 4xx status code are removed from the index</a>. Take the clinician off every concern, location, and telehealth page the same day, then redirect their URL to the specialty page that fits their work best. If they had their own Google Business Profile listing at your address, settle what happens to it before their last day.</p>
 
             <p><strong>When a clinician joins:</strong> their page goes live in week one, not quarter two. Add them to every concern, office, and state page that fits. Then run the new URL through URL Inspection in Search Console and request indexing.</p>
 
